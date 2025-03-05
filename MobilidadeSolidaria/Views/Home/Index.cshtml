@@ -1,8 +1,65 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilidade Solidária</title>
+    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true">
+    <script src="https://kit.fontawesome.com/40adfc175a.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <header>
+        <div class="top-bar">
+            <span> 📧 contato@mobsolidaria.com.br | 📞 (14) 99999-9999</span>
+        </div>
+        <nav>
+            <div class="logo">Mobilidade Solidária</div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">QUEM SOMOS</a></li>
+                <li><a href="#">MINHA CONTA</a></li>
+                <li><input type="text" placeholder="Buscar..."></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <div class="banner-content">
+            <img src="image.jpg" alt="Pessoa em cadeira de rodas com cachorro">
+            <div class="text">
+                <h2>Doe o que não usa, mude a vida de quem precisa.</h2>
+                <button>Quero doar</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <h2>Conheça nossa iniciativa</h2>
+        <p>Doe <strong class="highlight">MOBILIDADE</strong>. Doe <strong class="highlight">DIGNIDADE</strong>. Doe um <strong class="highlight">NOVO COMEÇO</strong>.</p>
+        <p>Conectamos pessoas que desejam doar equipamentos de mobilidade a quem precisa desses itens essenciais...</p>
+        <button>Saiba mais</button>
+    </section>
+    
+    <section class="doacao">
+        <h2>Alguns itens para doação</h2>
+        <div class="items">
+            <div class="item">
+                <img src="wheelchair.jpg" alt="Cadeira de rodas">
+                <p>Cadeira de rodas - Adulto</p>
+                <button>Tenho interesse</button>
+            </div>
+            <div class="item">
+                <img src="walker.jpg" alt="Andador de Alumínio">
+                <p>Andador de Alumínio</p>
+                <button>Tenho interesse</button>
+            </div>
+            <div class="item">
+                <img src="bath-chair.jpg" alt="Cadeira de banho">
+                <p>Cadeira de banho</p>
+                <button>Tenho interesse</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

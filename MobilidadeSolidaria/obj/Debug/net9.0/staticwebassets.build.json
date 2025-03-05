@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c8ZKLXoOql5uYMYk0C6d+uCL29ylmB+jI9oAcyOvoZk=",
+  "Hash": "W+0DgbPtcSWZqye56ouXFz8g4k3sX7T9Z63ImPgENp4=",
   "Source": "MobilidadeSolidaria",
   "BasePath": "_content/MobilidadeSolidaria",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-v3326qjzig.gz",
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-86qzx8v5xd.gz",
       "SourceId": "MobilidadeSolidaria",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "MobilidadeSolidaria#[.{fingerprint=v3326qjzig}]!.bundle.scp.css.gz",
+      "RelativePath": "MobilidadeSolidaria#[.{fingerprint=86qzx8v5xd}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o15m0vwnan",
-      "Integrity": "9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=",
+      "Fingerprint": "rlb5ca1gq4",
+      "Integrity": "/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-v3326qjzig.gz",
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-86qzx8v5xd.gz",
       "SourceId": "MobilidadeSolidaria",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "MobilidadeSolidaria#[.{fingerprint=v3326qjzig}]?.styles.css.gz",
+      "RelativePath": "MobilidadeSolidaria#[.{fingerprint=86qzx8v5xd}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o15m0vwnan",
-      "Integrity": "9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=",
+      "Fingerprint": "rlb5ca1gq4",
+      "Integrity": "/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css"
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\72qi1203me-a0b05tlxxi.gz",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "css/estilo#[.{fingerprint=a0b05tlxxi}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vao5zs0jq5",
+      "Integrity": "R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css"
     },
     {
       "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\7m6qihwygq-notf2xhcfb.gz",
@@ -1375,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "v3326qjzig",
-      "Integrity": "xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=",
+      "Fingerprint": "86qzx8v5xd",
+      "Integrity": "wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css"
@@ -1396,11 +1417,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "v3326qjzig",
-      "Integrity": "xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=",
+      "Fingerprint": "86qzx8v5xd",
+      "Integrity": "wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "css/estilo#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0b05tlxxi",
+      "Integrity": "Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\estilo.css"
     },
     {
       "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\site.css",
@@ -1443,6 +1485,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Logocompletasemfundo.png",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "imgs/Logocompletasemfundo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6f3opchlv4",
+      "Integrity": "rh9kZTOL++/xJESgCNjUf2SztJQEAHucwxeeWhXMyAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\Logocompletasemfundo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Mulher na cadeira de rodas.png",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "imgs/Mulher na cadeira de rodas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dg2sjot45",
+      "Integrity": "WEf4AgOzZa1U6UF+8XgzqQAa5IischiqCLgaFvjBatw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\Mulher na cadeira de rodas.png"
     },
     {
       "Identity": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\js\\site.js",
@@ -2728,6 +2812,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/estilo.a0b05tlxxi.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\72qi1203me-a0b05tlxxi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001926782274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0b05tlxxi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/estilo.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilo.a0b05tlxxi.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0b05tlxxi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/estilo.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilo.a0b05tlxxi.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\72qi1203me-a0b05tlxxi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0b05tlxxi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/estilo.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilo.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\72qi1203me-a0b05tlxxi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001926782274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilo.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn9vAdM4ClOrg0lbIEnubJ0iNus3PBTMlNfMha9Bn2s="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilo.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\72qi1203me-a0b05tlxxi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R727m2MMf6wJf+w2iIw05oR+mmsr3ccdgCYrGpNu4uk="
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\okwyyonmqa-b9sayid5wm.gz",
       "Selectors": [
@@ -2752,7 +3134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2813,7 +3195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2858,7 +3240,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2913,7 +3295,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2966,7 +3348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3003,7 +3385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:18:15 GMT"
+          "Value": "Wed, 05 Mar 2025 18:11:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3320,6 +3702,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/Logocompletasemfundo.6f3opchlv4.png",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Logocompletasemfundo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rh9kZTOL++/xJESgCNjUf2SztJQEAHucwxeeWhXMyAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:44:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f3opchlv4"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/Logocompletasemfundo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rh9kZTOL++/xJESgCNjUf2SztJQEAHucwxeeWhXMyAk="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/Logocompletasemfundo.png",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Logocompletasemfundo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rh9kZTOL++/xJESgCNjUf2SztJQEAHucwxeeWhXMyAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:44:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rh9kZTOL++/xJESgCNjUf2SztJQEAHucwxeeWhXMyAk="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/Mulher na cadeira de rodas.4dg2sjot45.png",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Mulher na cadeira de rodas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8194094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WEf4AgOzZa1U6UF+8XgzqQAa5IischiqCLgaFvjBatw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:44:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dg2sjot45"
+        },
+        {
+          "Name": "label",
+          "Value": "imgs/Mulher na cadeira de rodas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WEf4AgOzZa1U6UF+8XgzqQAa5IischiqCLgaFvjBatw="
+        }
+      ]
+    },
+    {
+      "Route": "imgs/Mulher na cadeira de rodas.png",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Mulher na cadeira de rodas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8194094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WEf4AgOzZa1U6UF+8XgzqQAa5IischiqCLgaFvjBatw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:44:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WEf4AgOzZa1U6UF+8XgzqQAa5IischiqCLgaFvjBatw="
         }
       ]
     },
@@ -21286,13 +21832,13 @@
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-v3326qjzig.gz",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-86qzx8v5xd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001828153565"
+          "Quality": "0.001818181818"
         }
       ],
       "ResponseHeaders": [
@@ -21302,19 +21848,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "546"
+          "Value": "549"
         },
         {
           "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -21330,18 +21876,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
+          "Value": "W/\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "86qzx8v5xd"
+        },
+        {
+          "Name": "label",
+          "Value": "MobilidadeSolidaria.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
         }
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.bundle.scp.css",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.bundle.scp.css",
       "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21351,7 +21905,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1139"
         },
         {
           "Name": "Content-Type",
@@ -21359,258 +21913,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
+          "Value": "\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-v3326qjzig.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "546"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.styles.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-v3326qjzig.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001828153565"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "546"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.styles.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.styles.css.gz",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-v3326qjzig.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "546"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.v3326qjzig.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-v3326qjzig.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001828153565"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "546"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v3326qjzig"
+          "Value": "86qzx8v5xd"
         },
         {
           "Name": "label",
@@ -21618,13 +21935,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
         }
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.v3326qjzig.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-86qzx8v5xd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21633,7 +21950,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "549"
         },
         {
           "Name": "Content-Type",
@@ -21641,56 +21958,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v3326qjzig"
-        },
-        {
-          "Name": "label",
-          "Value": "MobilidadeSolidaria.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
-        }
-      ]
-    },
-    {
-      "Route": "MobilidadeSolidaria.v3326qjzig.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-v3326qjzig.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "546"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21708,7 +21980,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v3326qjzig"
+          "Value": "86qzx8v5xd"
         },
         {
           "Name": "label",
@@ -21716,18 +21988,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo="
+          "Value": "sha256-/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ="
         }
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.v3326qjzig.styles.css",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-v3326qjzig.gz",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.styles.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-86qzx8v5xd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001828153565"
+          "Quality": "0.001818181818"
         }
       ],
       "ResponseHeaders": [
@@ -21737,15 +22009,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "546"
+          "Value": "549"
         },
         {
           "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21765,13 +22037,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
+          "Value": "W/\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v3326qjzig"
+          "Value": "86qzx8v5xd"
         },
         {
           "Name": "label",
@@ -21779,12 +22051,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
         }
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.v3326qjzig.styles.css",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.styles.css",
       "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21794,7 +22066,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1139"
         },
         {
           "Name": "Content-Type",
@@ -21802,11 +22074,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc=\""
+          "Value": "\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21816,7 +22088,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v3326qjzig"
+          "Value": "86qzx8v5xd"
         },
         {
           "Name": "label",
@@ -21824,13 +22096,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xSVN2jBljgr3QvMfyM4RMRA81SIHgh92MAC1wzTSNxc="
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
         }
       ]
     },
     {
-      "Route": "MobilidadeSolidaria.v3326qjzig.styles.css.gz",
-      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-v3326qjzig.gz",
+      "Route": "MobilidadeSolidaria.86qzx8v5xd.styles.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-86qzx8v5xd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21839,7 +22111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "546"
+          "Value": "549"
         },
         {
           "Name": "Content-Type",
@@ -21847,11 +22119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo=\""
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:21:44 GMT"
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21869,7 +22141,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v3326qjzig"
+          "Value": "86qzx8v5xd"
         },
         {
           "Name": "label",
@@ -21877,7 +22149,281 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9KBm6LuMh+H33nSYH/o8e3U/S2mt32RkP6N4VHrxMjo="
+          "Value": "sha256-/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-86qzx8v5xd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001818181818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\2j5hd6de7f-86qzx8v5xd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.styles.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-86qzx8v5xd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001818181818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.styles.css",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\bundle\\MobilidadeSolidaria.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wH/UFvWyXaPPOqwXSqP3iMWHt4hger5hCAMrhnH8B/w="
+        }
+      ]
+    },
+    {
+      "Route": "MobilidadeSolidaria.styles.css.gz",
+      "AssetFile": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\compressed\\3yumut7lwu-86qzx8v5xd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:10:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/83u3mHg2T9C3H/y7IYB/YmzvlG8uMRUXF6UmQ7SqbQ="
         }
       ]
     }

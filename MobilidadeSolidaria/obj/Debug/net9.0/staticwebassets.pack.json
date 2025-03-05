@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MobilidadeSolidaria.v3326qjzig.bundle.scp.css"
+      "PackagePath": "staticwebassets\\MobilidadeSolidaria.86qzx8v5xd.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
     },
     {
       "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\site.css",
@@ -11,6 +15,14 @@
     {
       "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Logocompletasemfundo.png",
+      "PackagePath": "staticwebassets\\imgs\\Logocompletasemfundo.png"
+    },
+    {
+      "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imgs\\Mulher na cadeira de rodas.png",
+      "PackagePath": "staticwebassets\\imgs\\Mulher na cadeira de rodas.png"
     },
     {
       "Id": "C:\\Users\\Rafael\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\js\\site.js",
