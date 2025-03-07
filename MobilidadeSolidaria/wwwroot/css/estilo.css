@@ -6,8 +6,7 @@ body {
 }
 
 header {
-    background: #0077b6;
-    color: white;
+    background: linear-gradient(to right, #2A6C81, #75D9F8);
     padding: 10px 20px;
     text-align: center;
 }
@@ -20,8 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background: #005f8d;
+    background: linear-gradient(to right, #2A6C81, #75D9F8);
 }
 
 nav ul {
@@ -36,7 +34,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #11272d;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -44,12 +43,13 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
-    background: linear-gradient(to right, #0077b6, #00aaff);
-    color: white;
+    padding: 20px;
+    background: linear-gradient(to right, #2A6C81, #75D9F8);
+    color: #363333;
 }
 
 .banner img {
+    flex: 1;
     width: 200px;
     border-radius: 10px;
     margin-right: 20px;
