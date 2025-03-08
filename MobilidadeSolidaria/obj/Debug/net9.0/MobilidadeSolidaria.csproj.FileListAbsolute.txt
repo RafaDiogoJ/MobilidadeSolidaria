@@ -344,7 +344,6 @@ C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\M
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\scopedcss\bundle\MobilidadeSolidaria.styles.css
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\scopedcss\projectbundle\MobilidadeSolidaria.bundle.scp.css
-C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\72qi1203me-a0b05tlxxi.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\okwyyonmqa-b9sayid5wm.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\a00rom6pnj-61n19gt1b8.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\84vizvu6f0-xtxxf3hu2r.gz
@@ -424,3 +423,4 @@ C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\r
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\MobilidadeSolidaria.pdb
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\MobilidadeSolidaria.genruntimeconfig.cache
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\ref\MobilidadeSolidaria.dll
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\72qi1203me-du74lpjzoe.gz

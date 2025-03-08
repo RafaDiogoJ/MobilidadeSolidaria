@@ -11,6 +11,15 @@ header {
     text-align: center;
 }
 
+nav .itensHeader{
+    max-width: 1300px; /* Define um tamanho máximo */
+    margin: 0 auto; /* Centraliza o conteúdo dentro da nav */
+    display: flex; /* Mantém os itens flexíveis */
+    justify-content: space-between; /* Distribui os itens */
+    align-items: center; /* Alinha verticalmente */
+    gap: 90px;
+}
+
 .top-bar {
     font-size: 14px;
 }
@@ -20,6 +29,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, #2A6C81, #75D9F8);
+    margin-bottom: 70px;
 }
 
 nav ul {
@@ -30,22 +40,23 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 nav ul li a {
     color: #11272d;
     font-weight: bold;
     text-decoration: none;
+    gap: 10px;
 }
 
 .banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     background: linear-gradient(to right, #2A6C81, #75D9F8);
     color: #363333;
+    height: 400px;
 }
 
 .banner img {
