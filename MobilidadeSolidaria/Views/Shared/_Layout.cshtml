@@ -12,20 +12,31 @@
 
 <body>
     <header>
-        <div class="top-bar" style="height: 30px; margin-top: 5px;">
-            <div style="display: flex; justify-content: center; align-items: center; opacity: 90%;">
-                <i class="fa-brands fa-facebook fa-xl" style="align-items:center; color: #11272d;margin-right: 17px; "></i>
-                <i class="fa-brands fa-linkedin fa-xl" style="color: #11272d; margin-right: 17px;"></i>
-                <i class="fa-brands fa-square-whatsapp fa-xl" style="color: #11272d;"></i>
-                <div>
-                        <i class="fa-solid fa-envelope fa-xl" style="color: #11272d; margin-left: 750px;"></i>
-                        <span style="color: #11272d; font-weight: bold; font-size: 15px;">contato@mobsolidaria.com  |</span>
-                        <i class="fa-solid fa-phone fa-xl"style="color: #11272d; margin-left: 5px"></i>
-                        <span style="color: #11272d; font-weight: bold; font-size: 15px;">(14) 99999-9999</span>
-                </div>
-            </div>
+    <div class="top-bar" style="
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        max-width: 1000px; 
+        margin: auto;
+        padding: 10px;
+    ">
+        <!-- Redes Sociais -->
+        <div style="display: flex; gap: 15px;">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #11272d;"></i>
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #11272d;"></i>
+            <i class="fa-brands fa-square-whatsapp fa-xl" style="color: #11272d;"></i>
         </div>
-    </header>
+
+        <!-- Contato -->
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-envelope fa-xl" style="color: #11272d;"></i>
+            <span style="color: #11272d; font-weight: bold; font-size: 15px;">contato@mobsolidaria.com |</span>
+            <i class="fa-solid fa-phone fa-xl" style="color: #11272d;"></i>
+            <span style="color: #11272d; font-weight: bold; font-size: 15px;">(14) 99999-9999</span>
+        </div>
+    </div>
+</header>
+
     <div class="container-fluid p-0">
         <main role="main" class="pb-3">
             @RenderBody()

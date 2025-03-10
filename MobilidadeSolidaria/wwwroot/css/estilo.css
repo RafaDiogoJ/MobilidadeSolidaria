@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    max-height: 100%;
 }
 
 header {
@@ -12,12 +13,12 @@ header {
 }
 
 nav .itensHeader{
-    max-width: 1300px; /* Define um tamanho máximo */
+    max-width: 1000px; /* Define um tamanho máximo */
     margin: 0 auto; /* Centraliza o conteúdo dentro da nav */
     display: flex; /* Mantém os itens flexíveis */
     justify-content: space-between; /* Distribui os itens */
     align-items: center; /* Alinha verticalmente */
-    gap: 90px;
+    gap: 0px;
 }
 
 .top-bar {
@@ -66,15 +67,27 @@ nav ul li a {
     margin-right: 20px;
 }
 
-.about, .doacao {
+
+.about{
     text-align: center;
-    padding: 40px;
     background: white;
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 10px;
+    padding: 30px;
+    margin: 0; /* Remove margens automáticas */
+    width: 100vw; /* Faz a section ocupar toda a largura da viewport */
+    max-width: none; /* Remove a limitação de largura */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+.about div {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 0 auto; /* Garante que a div principal fique centralizada */
+    gap: 0px; /* Adiciona espaço entre os elementos internos */
+}
+
+
 
 .doacao .items {
     display: flex;
