@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Features;
 using Mysqlx;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace MobilidadeSolidaria.Models
 {
@@ -26,9 +28,12 @@ namespace MobilidadeSolidaria.Models
 
     public List<EquipamentoFoto> Fotos { get; set; }
 
-    public int UsuarioId { get; set; } // Chave estrangeira para o usuário que cadastrou
+    [ForeignKey("Usuario")]
+        public string UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
 
-    public int CategoriaId { get; set; }
-    public Usuario Usuario { get; set; } // Relacionamento com a tabela de usuários
+        [ForeignKey("Categoria")]
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
     }
 }

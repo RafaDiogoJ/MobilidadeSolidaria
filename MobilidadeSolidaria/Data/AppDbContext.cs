@@ -26,6 +26,14 @@ public class AppDbContext : IdentityDbContext<Usuario>
         builder.Entity<IdentityUserLogin<string>>().ToTable("usuario_login");
         builder.Entity<IdentityRoleClaim<string>>().ToTable("perfil_regra");
 
+        // Configuração explícita do relacionamento entre Usuario e Equipamento
+            builder.Entity<Equipamento>()
+                .HasOne(e => e.Usuario) // Equipamento tem um Usuario
+                .WithMany(u => u.Equipamentos) // Usuario tem muitos Equipamentos
+                .HasForeignKey(e => e.UsuarioId) // A chave estrangeira é UsuarioId
+                .OnDelete(DeleteBehavior.Cascade); // Pode ser ajustado dependendo do comportamento desejado em caso de exclusão
+
+
         AppDbSeed seed = new(builder);
     }
 

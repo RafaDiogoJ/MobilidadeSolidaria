@@ -6,7 +6,7 @@ namespace MobilidadeSolidaria.Data;
 
 public class AppDbSeed
 {
-    public AppDbSeed(ModelBuilder builder)
+public AppDbSeed(ModelBuilder builder)
     {
         List<Categoria> categorias = new() {
             new Categoria { Id = 1, Nome = "Cadeiras de Rodas" },
@@ -16,33 +16,33 @@ public class AppDbSeed
             new Categoria { Id = 5, Nome = "Bancos de Banho" },
             new Categoria { Id = 6, Nome = "Aparelhos de Reabilitação" },
             new Categoria { Id = 7, Nome = "Barras de Apoio" }
-
         };
         builder.Entity<Categoria>().HasData(categorias);
 
-        List<Equipamento> equipamentos = new List<Equipamento>
-        {           
-            new Equipamento { Id = 1, CategoriaId = 1, Nome = "Cadeira de Rodas Manual", Descricao = "Cadeira de rodas manual, estrutura leve", Cidade = "São Paulo", Estado = "SP"},
-            new Equipamento { Id = 2, CategoriaId = 1, Nome = "Cadeira de Rodas Motorizada", Descricao = "Cadeira de rodas elétrica, com controle remoto", Cidade = "Rio de Janeiro", Estado = "RJ" },
-            new Equipamento { Id = 3, CategoriaId = 2, Nome = "Andador com 4 Rodas", Descricao = "Andador com 4 rodas e freios", Cidade = "Belo Horizonte", Estado = "MG" },
-            new Equipamento { Id = 4, CategoriaId = 2, Nome = "Andador Dobrável", Descricao = "Andador dobrável, ideal para transporte", Cidade = "Curitiba", Estado = "PR" },
-            new Equipamento { Id = 5, CategoriaId = 3, Nome = "Muleta Axilar", Descricao = "Muleta axilar de alumínio, ajustável", Cidade = "Porto Alegre", Estado = "RS" },
-            new Equipamento { Id = 6, CategoriaId = 3, Nome = "Muleta Canadense", Descricao = "Muleta canadense com apoio de braço", Cidade = "Salvador", Estado = "BA" },
-            new Equipamento { Id = 7, CategoriaId = 4, Nome = "Cinta de Manobra", Descricao = "Dispositivo de segurança usado para oferecer apoio extra para os braços do cuidador no manuseio de pacientes.", Cidade = "Fortaleza", Estado = "CE" },
-            new Equipamento { Id = 8, CategoriaId = 4, Nome = "Colchão Pneumático Dellamed", Descricao = "Colchão de ar com sistema de pressão alternada, com sistema de massagem e estimulação de tecidos, promovendo a circulação vital", Cidade = "Recife", Estado = "PE" },
-            new Equipamento { Id = 9, CategoriaId = 5, Nome = "Banco Para Banho em Alumínio até 135KG", Descricao = "estrutura em alumínio anodizado proporciona resistência à umidade e evita corrosão, enquanto seu assento ergonômico curvo com textura antiderrapante oferece maior estabilidade ao usuário.", Cidade = "Manaus", Estado = "AM" },
-            new Equipamento { Id = 10, CategoriaId = 5, Nome = "Banco Para Banho Com Encosto/Alças", Descricao = "Confeccionada em alumínio com encosto em Polietileno de Alta densidade - Assento Anti derrapante - Ponteira Anti Derrapante - Regulagem de altura em 6 posições - Capacidade de Peso: 110kgs", Cidade = "Belém", Estado = "PA" },
-            new Equipamento { Id = 11, CategoriaId = 6, Nome = "Mini Bike Bicicleta Ergometrica", Descricao = "Mini Bicicleta Portátil Cicloergômetro Exercício Sentado para Fisioterapia Braços Pernas", Cidade = "São Luís", Estado = "MA" },
-            new Equipamento { Id = 12, CategoriaId = 6, Nome = "Meia Bola Suiça Equilíbrio", Descricao = " ideal para diversos exercícios de ganho de força, equilíbrio, elasticidade e condicionamento físico.", Cidade = "Goiania", Estado = "GO" },
-            new Equipamento { Id = 13, CategoriaId = 7, Nome = "Barra de Apoio em L para Banheiro", Descricao = "Proporciona segurança, estabilidade e acessibilidade, auxiliando pessoas com dificuldades de locomoção ou equilíbrio. Ideal para instalação em banheiros, corredores e ambientes com risco de queda,", Cidade = "Vitória", Estado = "ES" },
-            new Equipamento { Id = 14, CategoriaId = 7, Nome = "Barra Para Lavatório", Descricao = "Barra de Apoio Lavatório Fabricada em tubo metálico redondo de 1'' 1/4 com Acabamento: pintura eletrostática a pó. Dimensões: 60cm x 60cm", Cidade = "Maceió", Estado = "AL" }
+        // Definir o UsuarioId para o usuário admin
+        string usuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005";
 
+        List<Equipamento> equipamentos = new List<Equipamento>
+        {
+            new Equipamento { Id = 1, CategoriaId = 1, Nome = "Cadeira de Rodas Manual", Descricao = "Cadeira de rodas manual, estrutura leve", Cidade = "São Paulo", Estado = "SP", UsuarioId = usuarioId },
+            new Equipamento { Id = 2, CategoriaId = 1, Nome = "Cadeira de Rodas Motorizada", Descricao = "Cadeira de rodas elétrica, com controle remoto", Cidade = "Rio de Janeiro", Estado = "RJ", UsuarioId = usuarioId },
+            new Equipamento { Id = 3, CategoriaId = 2, Nome = "Andador com 4 Rodas", Descricao = "Andador com 4 rodas e freios", Cidade = "Belo Horizonte", Estado = "MG", UsuarioId = usuarioId },
+            new Equipamento { Id = 4, CategoriaId = 2, Nome = "Andador Dobrável", Descricao = "Andador dobrável, ideal para transporte", Cidade = "Curitiba", Estado = "PR", UsuarioId = usuarioId },
+            new Equipamento { Id = 5, CategoriaId = 3, Nome = "Muleta Axilar", Descricao = "Muleta axilar de alumínio, ajustável", Cidade = "Porto Alegre", Estado = "RS", UsuarioId = usuarioId },
+            new Equipamento { Id = 6, CategoriaId = 3, Nome = "Muleta Canadense", Descricao = "Muleta canadense com apoio de braço", Cidade = "Salvador", Estado = "BA", UsuarioId = usuarioId },
+            new Equipamento { Id = 7, CategoriaId = 4, Nome = "Cinta de Manobra", Descricao = "Dispositivo de segurança usado para oferecer apoio extra para os braços do cuidador no manuseio de pacientes.", Cidade = "Fortaleza", Estado = "CE", UsuarioId = usuarioId },
+            new Equipamento { Id = 8, CategoriaId = 4, Nome = "Colchão Pneumático Dellamed", Descricao = "Colchão de ar com sistema de pressão alternada, com sistema de massagem e estimulação de tecidos, promovendo a circulação vital", Cidade = "Recife", Estado = "PE", UsuarioId = usuarioId },
+            new Equipamento { Id = 9, CategoriaId = 5, Nome = "Banco Para Banho em Alumínio até 135KG", Descricao = "Estrutura em alumínio anodizado proporciona resistência à umidade e evita corrosão, enquanto seu assento ergonômico curvo com textura antiderrapante oferece maior estabilidade ao usuário.", Cidade = "Manaus", Estado = "AM", UsuarioId = usuarioId },
+            new Equipamento { Id = 10, CategoriaId = 5, Nome = "Banco Para Banho Com Encosto/Alças", Descricao = "Confeccionada em alumínio com encosto em Polietileno de Alta densidade - Assento Anti derrapante - Ponteira Anti Derrapante - Regulagem de altura em 6 posições - Capacidade de Peso: 110kgs", Cidade = "Belém", Estado = "PA", UsuarioId = usuarioId },
+            new Equipamento { Id = 11, CategoriaId = 6, Nome = "Mini Bike Bicicleta Ergométrica", Descricao = "Mini Bicicleta Portátil Cicloergômetro Exercício Sentado para Fisioterapia Braços e Pernas", Cidade = "São Luís", Estado = "MA", UsuarioId = usuarioId },
+            new Equipamento { Id = 12, CategoriaId = 6, Nome = "Meia Bola Suiça Equilíbrio", Descricao = "Ideal para diversos exercícios de ganho de força, equilíbrio, elasticidade e condicionamento físico.", Cidade = "Goiânia", Estado = "GO", UsuarioId = usuarioId },
+            new Equipamento { Id = 13, CategoriaId = 7, Nome = "Barra de Apoio em L para Banheiro", Descricao = "Proporciona segurança, estabilidade e acessibilidade, auxiliando pessoas com dificuldades de locomoção ou equilíbrio. Ideal para instalação em banheiros, corredores e ambientes com risco de queda.", Cidade = "Vitória", Estado = "ES", UsuarioId = usuarioId },
+            new Equipamento { Id = 14, CategoriaId = 7, Nome = "Barra Para Lavatório", Descricao = "Barra de Apoio Lavatório Fabricada em tubo metálico redondo de 1'' 1/4 com Acabamento: pintura eletrostática a pó. Dimensões: 60cm x 60cm", Cidade = "Maceió", Estado = "AL", UsuarioId = usuarioId }
         };
         builder.Entity<Equipamento>().HasData(equipamentos);
 
         List<EquipamentoFoto> equipamentoFotos = new List<EquipamentoFoto>
         {
-            // Produto 1
             new EquipamentoFoto { Id = 1, EquipamentoId = 1, ArquivoFoto = "/imgs/Equipamentos/1/1.png" },
             new EquipamentoFoto { Id = 2, EquipamentoId = 2, ArquivoFoto = "/imgs/Equipamentos/1/2.png" },
             new EquipamentoFoto { Id = 3, EquipamentoId = 3, ArquivoFoto = "/imgs/Equipamentos/2/1.png" },
@@ -56,11 +56,9 @@ public class AppDbSeed
             new EquipamentoFoto { Id = 11, EquipamentoId = 11, ArquivoFoto = "/imgs/Equipamentos/6/1.png" },
             new EquipamentoFoto { Id = 12, EquipamentoId = 12, ArquivoFoto = "/imgs/Equipamentos/6/2.png" },
             new EquipamentoFoto { Id = 13, EquipamentoId = 13, ArquivoFoto = "/imgs/Equipamentos/7/1.png" },
-            new EquipamentoFoto { Id = 14, EquipamentoId = 14, ArquivoFoto = "/imgs/Equipamentos/7/2.png" },
-
+            new EquipamentoFoto { Id = 14, EquipamentoId = 14, ArquivoFoto = "/imgs/Equipamentos/7/2.png" }
         };
         builder.Entity<EquipamentoFoto>().HasData(equipamentoFotos);
-
 
         #region Populate Roles - Perfis de Usuário
         List<IdentityRole> roles = new()
@@ -95,12 +93,13 @@ public class AppDbSeed
                 LockoutEnabled = true,
                 EmailConfirmed = true,
                 Nome = "Rafael Diogo de Jesus",
+                Senha ="123456"
             }
         };
         foreach (var user in usuarios)
         {
             PasswordHasher<IdentityUser> pass = new();
-            user.PasswordHash = pass.HashPassword(user, "123456");
+            user.PasswordHash = pass.HashPassword(user, user.Senha);
         }
         builder.Entity<Usuario>().HasData(usuarios);
         #endregion

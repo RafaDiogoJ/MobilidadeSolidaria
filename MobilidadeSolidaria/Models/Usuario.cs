@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Identity;
 namespace MobilidadeSolidaria.Models;
 public class Usuario : IdentityUser
     {
-        public int id { get; set; }
 
         [Required(ErrorMessage = "Por favor, insira o nome")]
         [StringLength(60, ErrorMessage = "O nome deve conter no máximo 60 caracteres")]
