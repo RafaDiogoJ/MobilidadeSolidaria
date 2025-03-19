@@ -13,10 +13,10 @@ header {
 }
 
 nav .itensHeader{
-    max-width: 1000px; /* Define um tamanho máximo */
-    margin: 0 auto; /* Centraliza o conteúdo dentro da nav */
+    max-width: 100%; /* Define um tamanho máximo */
+    /*margin: 0 auto; /* Centraliza o conteúdo dentro da nav */
     display: flex; /* Mantém os itens flexíveis */
-    justify-content: space-between; /* Distribui os itens */
+    justify-content: space-evenly; /* Distribui os itens */
     align-items: center; /* Alinha verticalmente */
     gap: 0px;
 }
@@ -27,7 +27,7 @@ nav .itensHeader{
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #2A6C81, #75D9F8);
     margin-bottom: 70px;

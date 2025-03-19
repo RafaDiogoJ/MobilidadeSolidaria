@@ -43,20 +43,20 @@ public AppDbSeed(ModelBuilder builder)
 
         List<EquipamentoFoto> equipamentoFotos = new List<EquipamentoFoto>
         {
-            new EquipamentoFoto { Id = 1, EquipamentoId = 1, ArquivoFoto = "/imgs/Equipamentos/1/1.png" },
-            new EquipamentoFoto { Id = 2, EquipamentoId = 2, ArquivoFoto = "/imgs/Equipamentos/1/2.png" },
-            new EquipamentoFoto { Id = 3, EquipamentoId = 3, ArquivoFoto = "/imgs/Equipamentos/2/1.png" },
-            new EquipamentoFoto { Id = 4, EquipamentoId = 4, ArquivoFoto = "/imgs/Equipamentos/2/2.png" },
-            new EquipamentoFoto { Id = 5, EquipamentoId = 5, ArquivoFoto = "/imgs/Equipamentos/3/1.png" },
-            new EquipamentoFoto { Id = 6, EquipamentoId = 6, ArquivoFoto = "/imgs/Equipamentos/3/2.png" },
-            new EquipamentoFoto { Id = 7, EquipamentoId = 7, ArquivoFoto = "/imgs/Equipamentos/4/1.png" },
-            new EquipamentoFoto { Id = 8, EquipamentoId = 8, ArquivoFoto = "/imgs/Equipamentos/4/2.png" },
-            new EquipamentoFoto { Id = 9, EquipamentoId = 9, ArquivoFoto = "/imgs/Equipamentos/5/1.png" },
-            new EquipamentoFoto { Id = 10, EquipamentoId = 10, ArquivoFoto = "/imgs/Equipamentos/5/2.png" },
-            new EquipamentoFoto { Id = 11, EquipamentoId = 11, ArquivoFoto = "/imgs/Equipamentos/6/1.png" },
-            new EquipamentoFoto { Id = 12, EquipamentoId = 12, ArquivoFoto = "/imgs/Equipamentos/6/2.png" },
-            new EquipamentoFoto { Id = 13, EquipamentoId = 13, ArquivoFoto = "/imgs/Equipamentos/7/1.png" },
-            new EquipamentoFoto { Id = 14, EquipamentoId = 14, ArquivoFoto = "/imgs/Equipamentos/7/2.png" }
+            new EquipamentoFoto { Id = 1, EquipamentoId = 1, ArquivoFoto = "/images/Equipamentos/1/1.png" },
+            new EquipamentoFoto { Id = 2, EquipamentoId = 2, ArquivoFoto = "/images/Equipamentos/1/2.png" },
+            new EquipamentoFoto { Id = 3, EquipamentoId = 3, ArquivoFoto = "/images/Equipamentos/2/1.png" },
+            new EquipamentoFoto { Id = 4, EquipamentoId = 4, ArquivoFoto = "/images/Equipamentos/2/2.png" },
+            new EquipamentoFoto { Id = 5, EquipamentoId = 5, ArquivoFoto = "/images/Equipamentos/3/1.png" },
+            new EquipamentoFoto { Id = 6, EquipamentoId = 6, ArquivoFoto = "/images/Equipamentos/3/2.png" },
+            new EquipamentoFoto { Id = 7, EquipamentoId = 7, ArquivoFoto = "/images/Equipamentos/4/1.png" },
+            new EquipamentoFoto { Id = 8, EquipamentoId = 8, ArquivoFoto = "/images/Equipamentos/4/2.png" },
+            new EquipamentoFoto { Id = 9, EquipamentoId = 9, ArquivoFoto = "/images/Equipamentos/5/1.png" },
+            new EquipamentoFoto { Id = 10, EquipamentoId = 10, ArquivoFoto = "/images/Equipamentos/5/2.png" },
+            new EquipamentoFoto { Id = 11, EquipamentoId = 11, ArquivoFoto = "/images/Equipamentos/6/1.png" },
+            new EquipamentoFoto { Id = 12, EquipamentoId = 12, ArquivoFoto = "/images/Equipamentos/6/2.png" },
+            new EquipamentoFoto { Id = 13, EquipamentoId = 13, ArquivoFoto = "/images/Equipamentos/7/1.png" },
+            new EquipamentoFoto { Id = 14, EquipamentoId = 14, ArquivoFoto = "/images/Equipamentos/7/2.png" }
         };
         builder.Entity<EquipamentoFoto>().HasData(equipamentoFotos);
 
