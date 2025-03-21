@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobilidadeSolidaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d650f47ab048af000a93d176f26cbafde1d23138")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850b138273f3a11e18a886275c1889ae23b1d55c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobilidadeSolidaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobilidadeSolidaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
