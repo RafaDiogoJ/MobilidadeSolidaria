@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Features;
 using Mysqlx;
 using System.ComponentModel.DataAnnotations.Schema;
+using MobilidadeSolidaria.Models;
 
 
 namespace MobilidadeSolidaria.Models
@@ -23,6 +24,7 @@ namespace MobilidadeSolidaria.Models
     [StringLength(200, ErrorMessage ="A descrição não pode conter mais de 200 caracteres")]
     public string Descricao { get; set; }
 
+    public StatusEquipamento Status { get; set; }
     public string Cidade { get; set; } // A cidade onde o equipamento está disponível
     public string Estado { get; set; } // Opcional, se quiser refinar a busca
 

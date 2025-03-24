@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using MobilidadeSolidaria.Models
+@model IEnumerable<Equipamento>
+
+
+<!DOCTYPE html>
 <html lang="pt-BR">
 
   <head>
@@ -104,6 +108,58 @@
 
 
     <section class="ftco-section bg-light">
+
+
+
+<div id="equipamentosCarrossel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var equipamento in Model)
+            {
+                <p>Equipamento: @equipamento.Nome</p>  <!-- Adicionando uma linha para depurar -->
+                if (equipamento.Status != StatusEquipamento.Indisponivel)
+                {
+                    <div class="carousel-item @((equipamento == Model.First()) ? "active" : "")">
+                        @if (equipamento.Fotos != null && equipamento.Fotos.Any())
+                        {
+                            var foto = equipamento.Fotos.First();  // Pegando a primeira foto associada ao equipamento
+                            <img src="@Url.Content(foto.ArquivoFoto)" class="d-block w-100" alt="@equipamento.Nome">
+                        }
+                        else
+                        {
+                            <img src="~/images/default.jpg" class="d-block w-100" alt="Imagem padrão">
+                        }
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>@equipamento.Nome</h5>
+                            <p>@equipamento.Status</p>
+                        </div>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <p>Não há equipamentos disponíveis para exibição.</p>
+        }
+    </div>
+
+    <!-- Controles do Carrossel -->
+    <a class="carousel-control-prev" href="#equipamentosCarrossel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#equipamentosCarrossel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+
+
     	<div class="container-fluid">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-5 heading-section ftco-animate text-center">
