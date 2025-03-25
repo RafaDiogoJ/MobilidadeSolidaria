@@ -30,3 +30,24 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.carousel-inner img {
+  max-height: 180px; /* Define uma altura máxima */
+  max-width: 180px;
+  width: auto; /* Mantém a largura automática */
+  object-fit: cover; /* Garante que a imagem preencha a área corretamente */
+  margin: auto; /* Centraliza a imagem */
+}
+
+.card-img-top {
+  height: 200px; /* Ajuste conforme necessário */
+  object-fit: cover; /* Para a imagem se ajustar sem distorcer */
+}
+
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    border-radius: 50%; /* Bordas arredondadas */
+    padding: 15px; /* Aumenta a área de clique */
+}
