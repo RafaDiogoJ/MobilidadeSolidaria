@@ -6,7 +6,7 @@ a.navbar-brand[b-hyz3h5mk6q] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  color: #000;
+  color: #000000;
 
 }
 
@@ -48,4 +48,10 @@ button.accept-policy[b-hyz3h5mk6q] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.Logotipo[b-hyz3h5mk6q]
+{
+  max-width: 80px;
+  max-height: 80px;
 }

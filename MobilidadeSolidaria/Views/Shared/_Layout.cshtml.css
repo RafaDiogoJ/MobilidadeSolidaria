@@ -5,7 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  color: #000;
+  color: #000000;
 
 }
 
@@ -47,4 +47,10 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.Logotipo
+{
+  max-width: 80px;
+  max-height: 80px;
 }

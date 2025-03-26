@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MobilidadeSolidaria.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MobilidadeSolidaria.86qzx8v5xd.bundle.scp.css"
+      "PackagePath": "staticwebassets\\MobilidadeSolidaria.huicz8wx4i.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\css\\ajax-loader.gif",
@@ -89,6 +89,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\BGImage.jpg",
+      "PackagePath": "staticwebassets\\images\\BGImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\BGNovo.jpg",
+      "PackagePath": "staticwebassets\\images\\BGNovo.jpg"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\Equipamentos\\1\\1.png",
       "PackagePath": "staticwebassets\\images\\Equipamentos\\1\\1.png"
     },
@@ -145,12 +153,16 @@
       "PackagePath": "staticwebassets\\images\\Equipamentos\\7\\2.png"
     },
     {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\LogoSemFundo.png",
-      "PackagePath": "staticwebassets\\images\\LogoSemFundo.png"
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\ImgLogoSemFundo.png",
+      "PackagePath": "staticwebassets\\images\\ImgLogoSemFundo.png"
     },
     {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\Logocompletasemfundo.png",
-      "PackagePath": "staticwebassets\\images\\Logocompletasemfundo.png"
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\LogoImgSemFundo.png",
+      "PackagePath": "staticwebassets\\images\\LogoImgSemFundo.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\LogoSemFundo.png",
+      "PackagePath": "staticwebassets\\images\\LogoSemFundo.png"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\Mulhernacadeiraderodas.png",
