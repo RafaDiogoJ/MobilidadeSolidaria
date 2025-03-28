@@ -27,14 +27,20 @@ public class AppDbContext : IdentityDbContext<Usuario>
         builder.Entity<IdentityRoleClaim<string>>().ToTable("perfil_regra");
 
         // Configuração explícita do relacionamento entre Usuario e Equipamento
-            builder.Entity<Equipamento>()
-                .HasOne(e => e.Usuario) // Equipamento tem um Usuario
-                .WithMany(u => u.Equipamentos) // Usuario tem muitos Equipamentos
-                .HasForeignKey(e => e.UsuarioId) // A chave estrangeira é UsuarioId
-                .OnDelete(DeleteBehavior.Cascade); // Pode ser ajustado dependendo do comportamento desejado em caso de exclusão
+        builder.Entity<Equipamento>()
+            .HasOne(e => e.Usuario)
+            .WithMany(u => u.Equipamentos)
+            .HasForeignKey(e => e.UsuarioId)
+            .OnDelete(DeleteBehavior.Cascade);
 
+        // ✅ Configuração para o Enum StatusEquipamento
+        builder.Entity<Equipamento>()
+            .Property(e => e.Status)
+            .HasConversion(
+                v => v.ToString(), // Salva como string no banco de dados
+                v => (StatusEquipamento)Enum.Parse(typeof(StatusEquipamento), v)
+            );
 
         AppDbSeed seed = new(builder);
     }
-
 }

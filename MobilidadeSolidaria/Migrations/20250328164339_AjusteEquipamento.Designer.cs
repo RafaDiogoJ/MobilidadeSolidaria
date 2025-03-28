@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MobilidadeSolidaria.Data;
 
@@ -10,9 +11,11 @@ using MobilidadeSolidaria.Data;
 namespace MobilidadeSolidaria.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250328164339_AjusteEquipamento")]
+    partial class AjusteEquipamento
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -266,9 +269,8 @@ namespace MobilidadeSolidaria.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("varchar(60)");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
                         .HasColumnType("varchar(255)");
@@ -290,7 +292,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Cadeira de rodas manual, estrutura leve",
                             Estado = "SP",
                             Nome = "Cadeira de Rodas Manual",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -301,7 +303,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Cadeira de rodas elétrica, com controle remoto",
                             Estado = "RJ",
                             Nome = "Cadeira de Rodas Motorizada",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -312,7 +314,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Andador com 4 rodas e freios",
                             Estado = "MG",
                             Nome = "Andador com 4 Rodas",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -323,7 +325,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Andador dobrável, ideal para transporte",
                             Estado = "PR",
                             Nome = "Andador Dobrável",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -334,7 +336,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Muleta axilar de alumínio, ajustável",
                             Estado = "RS",
                             Nome = "Muleta Axilar",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -345,7 +347,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Muleta canadense com apoio de braço",
                             Estado = "BA",
                             Nome = "Muleta Canadense",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -356,7 +358,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Dispositivo de segurança usado para oferecer apoio extra para os braços do cuidador no manuseio de pacientes.",
                             Estado = "CE",
                             Nome = "Cinta de Manobra",
-                            Status = "Emprestimo",
+                            Status = 0,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -367,7 +369,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Colchão de ar com sistema de pressão alternada, com sistema de massagem e estimulação de tecidos, promovendo a circulação vital",
                             Estado = "PE",
                             Nome = "Colchão Pneumático Dellamed",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -378,7 +380,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Estrutura em alumínio anodizado proporciona resistência à umidade e evita corrosão, enquanto seu assento ergonômico curvo com textura antiderrapante oferece maior estabilidade ao usuário.",
                             Estado = "AM",
                             Nome = "Banco Para Banho em Alumínio até 135KG",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -389,7 +391,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Confeccionada em alumínio com encosto em Polietileno de Alta densidade - Assento Anti derrapante - Ponteira Anti Derrapante - Regulagem de altura em 6 posições - Capacidade de Peso: 110kgs",
                             Estado = "PA",
                             Nome = "Banco Para Banho Com Encosto/Alças",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -400,7 +402,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Mini Bicicleta Portátil Cicloergômetro Exercício Sentado para Fisioterapia Braços e Pernas",
                             Estado = "MA",
                             Nome = "Mini Bike Bicicleta Ergométrica",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -411,7 +413,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Ideal para diversos exercícios de ganho de força, equilíbrio, elasticidade e condicionamento físico.",
                             Estado = "GO",
                             Nome = "Meia Bola Suiça Equilíbrio",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -422,7 +424,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Proporciona segurança, estabilidade e acessibilidade, auxiliando pessoas com dificuldades de locomoção ou equilíbrio. Ideal para instalação em banheiros, corredores e ambientes com risco de queda.",
                             Estado = "ES",
                             Nome = "Barra de Apoio em L para Banheiro",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         },
                         new
@@ -433,7 +435,7 @@ namespace MobilidadeSolidaria.Migrations
                             Descricao = "Barra de Apoio Lavatório Fabricada em tubo metálico redondo de 1'' 1/4 com Acabamento: pintura eletrostática a pó. Dimensões: 60cm x 60cm",
                             Estado = "AL",
                             Nome = "Barra Para Lavatório",
-                            Status = "Doacao",
+                            Status = 1,
                             UsuarioId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005"
                         });
                 });
@@ -632,16 +634,16 @@ namespace MobilidadeSolidaria.Migrations
                         {
                             Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5c8d5a45-0cb8-474b-a1b8-588828a840e3",
+                            ConcurrencyStamp = "a8ab87fa-46e0-4aa5-9751-d7fd0dd0ce43",
                             Email = "rafabbta@hotmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             Nome = "Rafael Diogo de Jesus",
                             NormalizedEmail = "RAFABBTA@HOTMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAnDAK0G4SUMXcOhpqe5Rjsl0nkE7/eFJXtBIchqnT+7isfCgbdDid6BYm8eCTk2LQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDiuJ+JnCNf2u2EgN7pjMdWc9eTVWcKx/DNnm8I+ZhZT7FIaJTf5df1hEQlpYITqag==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4b0fa609-7afa-4026-8c61-cba85da694b4",
+                            SecurityStamp = "e04cd54f-f0df-4c84-abcc-e0a9ca58e041",
                             Senha = "123456",
                             TwoFactorEnabled = false,
                             UserName = "admin"

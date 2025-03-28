@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MobilidadeSolidaria.Data;
 
@@ -10,9 +11,11 @@ using MobilidadeSolidaria.Data;
 namespace MobilidadeSolidaria.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250328165556_AjusteEnumStatus")]
+    partial class AjusteEnumStatus
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -632,16 +635,16 @@ namespace MobilidadeSolidaria.Migrations
                         {
                             Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5c8d5a45-0cb8-474b-a1b8-588828a840e3",
+                            ConcurrencyStamp = "35284a4a-dce7-45c2-88c1-82c7f129a56e",
                             Email = "rafabbta@hotmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             Nome = "Rafael Diogo de Jesus",
                             NormalizedEmail = "RAFABBTA@HOTMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAnDAK0G4SUMXcOhpqe5Rjsl0nkE7/eFJXtBIchqnT+7isfCgbdDid6BYm8eCTk2LQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDFEsjWOXPn9pcb6jk+b+F1nj6yfnjrp6i2T7Gf3vaI6J0x1IKYHiMzh3jVdATDDrA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4b0fa609-7afa-4026-8c61-cba85da694b4",
+                            SecurityStamp = "d2fe7413-6eb7-4b6d-abc5-e7e2237382ac",
                             Senha = "123456",
                             TwoFactorEnabled = false,
                             UserName = "admin"
