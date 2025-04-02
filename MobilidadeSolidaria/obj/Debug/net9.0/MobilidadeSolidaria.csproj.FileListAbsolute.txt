@@ -793,7 +793,6 @@ C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\r
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\okwyyonmqa-48z0r29jmq.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\3yumut7lwu-huicz8wx4i.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\2j5hd6de7f-huicz8wx4i.gz
-C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\hk6ayv383p-bua534srdy.gz
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\bin\Debug\net9.0\prepros-6.config
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\bin\Debug\net9.0\appsettings.json
@@ -1177,3 +1176,6 @@ C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\MobilidadeSolidaria.genruntimeconfig.cache
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\ref\MobilidadeSolidaria.dll
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\hk6ayv383p-ymf77s7biu.gz
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\hk6ayv383p-4xv9qfcey7.gz
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\i7itf4l95e-xmmtcbucbs.gz
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\oj268ou8v5-pf2nbhjn6r.gz
