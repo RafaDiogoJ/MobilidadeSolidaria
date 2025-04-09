@@ -181,6 +181,18 @@
       "PackagePath": "staticwebassets\\images\\Mulhernacadeiraderodas.png"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\bgCabelopreto.png",
+      "PackagePath": "staticwebassets\\images\\bgCabelopreto.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\bgCadastro.png",
+      "PackagePath": "staticwebassets\\images\\bgCadastro.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\bgLogin.png",
+      "PackagePath": "staticwebassets\\images\\bgLogin.png"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\bg_1.jpg",
       "PackagePath": "staticwebassets\\images\\bg_1.jpg"
     },

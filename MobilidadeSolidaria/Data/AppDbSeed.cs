@@ -93,13 +93,13 @@ public AppDbSeed(ModelBuilder builder)
                 LockoutEnabled = true,
                 EmailConfirmed = true,
                 Nome = "Rafael Diogo de Jesus",
-                Senha ="123456"
+                DataNascimento = DateTime.Parse("27/12/1999")
             }
         };
         foreach (var user in usuarios)
         {
             PasswordHasher<IdentityUser> pass = new();
-            user.PasswordHash = pass.HashPassword(user, user.Senha);
+            user.PasswordHash = pass.HashPassword(user, "123456");
         }
         builder.Entity<Usuario>().HasData(usuarios);
         #endregion
