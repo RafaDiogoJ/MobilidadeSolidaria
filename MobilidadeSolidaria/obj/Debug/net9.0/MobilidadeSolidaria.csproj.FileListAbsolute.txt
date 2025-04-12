@@ -760,8 +760,6 @@ C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\c
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\6qxb7knzsy-h1s4sie4z3.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\cehylg7uun-4d85u1mtcx.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\9ob79zeyrm-0j3bgjxly4.gz
-C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\iwnysi7ko1-03hjc8e09r.gz
-C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\muwn1ybp60-48y08845bh.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\sp8h67cb4q-356vix0kms.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\4ef2v5nk93-83jwlth58m.gz
 C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\xibw1ww0q3-mrlpezrjn3.gz
@@ -1181,3 +1179,5 @@ C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\MobilidadeSolidaria.pdb
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\MobilidadeSolidaria.genruntimeconfig.cache
 C:\Users\Rafael\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\ref\MobilidadeSolidaria.dll
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\iwnysi7ko1-7hxlb89rey.gz
+C:\Users\etec\Desktop\MobilidadeSolidaria\MobilidadeSolidaria\obj\Debug\net9.0\compressed\muwn1ybp60-tiahy8gk05.gz

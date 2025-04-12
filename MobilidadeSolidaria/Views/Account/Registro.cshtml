@@ -10,13 +10,12 @@
 </div>
 <div class="container">
     <div class="row justify-content-center my-3">
-
         <div class="col-lg-8">
-            <div class="card shadow-lg border=0 rounded-lg">
+            <div class="card shadow-lg border-0 rounded-lg">
                 <div class="card-header">
                     <h3 class="text-center font-weight-light my-4">Criação de Conta</h3>
                 </div>
-                <div class="Card-body">
+                <div class="card-body">
                     <form asp-action="Registro" method="post" enctype="multipart/form-data">
                         <div asp-validation-summary="ModelOnly" hidden></div>
                         <div class="row">
@@ -73,7 +72,7 @@
     <partial name="_ValidationScriptsPartial.cshtml"></partial>
     <script type="text/javascript">
         let mensagemErro = '';
-        $(".asp-validation-summary-errors ul li").each(function () {
+        $(".validation-summary-errors ul li").each(function () {
             mensagemErro += $(this).text() + '<br />';
         });
         if (mensagemErro != '')
