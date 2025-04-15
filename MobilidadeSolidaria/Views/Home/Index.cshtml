@@ -114,54 +114,65 @@
 
 
   <section class="ftco-section bg-light">
-  <div class="container-fluid">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-5 heading-section ftco-animate text-center">
-        <h2 class="mb-4">Alguns itens disponíveis em nosso site</h2>
-      </div>
-      <div id="equipamentosCarrossel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          @{
-            var equipamentosPorSlide = 5; // Define 5 itens por slide
-            int totalEquipamentos = Model.Count();
-            int grupos = (int)Math.Ceiling((double)totalEquipamentos / equipamentosPorSlide);
-          }
-
-          @for (int i = 0; i < grupos; i++)
-          {
-            <div class="carousel-item @(i == 0 ? "active" : "")">
-              <div class="d-flex flex-wrap justify-content-center gap-3">
-                @foreach (var equipamento in Model.Skip(i * equipamentosPorSlide).Take(equipamentosPorSlide))
-                {
-                  <div class="card shadow-sm col-md-2 col-sm-4 col-6" style="min-width: 180px; max-width: 220px;">
-                    <img src="@Url.Content(equipamento.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
-                      class="card-img-top" alt="@equipamento.Nome" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                      <h6 class="card-title fw-bold">@equipamento.Nome</h6>
-                      <p class="card-text text-muted" style="font-size: 14px;">Disponível para @equipamento.Status</p>
-                    </div>
-                  </div>
-                }
-              </div>
-            </div>
-          }
+    <div class="container-fluid">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-5 heading-section ftco-animate text-center">
+          <h2 class="mb-4">Alguns itens disponíveis em nosso site</h2>
         </div>
-        <!-- Controles do Carrossel -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#equipamentosCarrossel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#equipamentosCarrossel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
-        </button>
+        <div id="equipamentosCarrossel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            @{
+              var equipamentosPorSlide = 5; // Define 5 itens por slide
+              int totalEquipamentos = Model.Count();
+              int grupos = (int)Math.Ceiling((double)totalEquipamentos / equipamentosPorSlide);
+            }
+
+            @for (int i = 0; i < grupos; i++)
+            {
+              <div class="carousel-item @(i == 0 ? "active" : "")">
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                  @foreach (var equipamento in Model.Skip(i * equipamentosPorSlide).Take(equipamentosPorSlide))
+                  {
+                    <div class="card shadow-sm col-md-2 col-sm-4 col-6" style="min-width: 180px; max-width: 220px;">
+                      <img src="@Url.Content(equipamento.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
+                        class="card-img-top" alt="@equipamento.Nome" style="height: 150px; object-fit: cover;">
+                      <div class="card-body text-center">
+                        <h6 class="card-title fw-bold">@equipamento.Nome</h6>
+                        <p class="card-text text-muted" style="font-size: 14px;">Disponível para @equipamento.Status</p>
+
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center">
+                            <a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="Equipamento"
+                              asp-route-id="@equipamento.Id">
+                              Detalhes</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  }
+                </div>
+              </div>
+            }
+          </div>
+          <!-- Controles do Carrossel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#equipamentosCarrossel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#equipamentosCarrossel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-       @* <div class="row">
+  @* <div class="row">
         <div class="col-md-12 ftco-animate">
           <div class="carousel-cause owl-carousel">
             <div class="item">
