@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MobilidadeSolidaria.Models;
 
-[Table("item_foto")]
+[Table("equipamento_foto")]
 public class EquipamentoFoto
 {
     [Key]
@@ -19,8 +19,7 @@ public class EquipamentoFoto
     [Required(ErrorMessage ="Por favor, informe o arquivo")]
     [StringLength(300)]
     public string ArquivoFoto { get; set; }
-    public List<EquipamentoFoto> Fotos { get; set; } // Relacionamento com EquipamentoFoto
-    
+
     [Display(Name ="Descrição")]
     [StringLength(100, ErrorMessage ="A descrição deve conter no máximo 100 caracteres")]
     public string Descricao { get; set; }

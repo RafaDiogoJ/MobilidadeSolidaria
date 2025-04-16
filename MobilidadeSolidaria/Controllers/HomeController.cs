@@ -53,15 +53,17 @@ namespace MobilidadeSolidaria.Controllers
             // Obtendo a lista de todos os equipamentos
             var equipamentos = _context.Equipamentos
                 .Include(e => e.Fotos)  // Incluindo as fotos de todos os equipamentos
+                .Take(5)
                 .Where(e => e.Status != StatusEquipamento.Indisponivel)  // Excluindo equipamentos com status "Indisponível"
                 .ToList();
 
-            // Passando os dados diretamente para a view (não usa ViewModel)
-            ViewData["Equipamento"] = equipamento;
-            ViewData["Equipamentos"] = equipamentos;
+            EquipamentoVM equipamentoVM = new(){
+                Equipamento = equipamento,
+                Equipamentos = equipamentos
+            };
 
             // Retorna a View
-            return View();
+            return View(equipamentoVM);
         }
 
         public IActionResult Privacy()
