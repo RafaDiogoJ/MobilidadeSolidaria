@@ -1,31 +1,54 @@
 @model MobilidadeSolidaria.ViewModels.EquipamentoVM
 @{
     ViewData["Title"] = "Detalhes do Equipamento";
+
+    var telefone = Model.Equipamento.Usuario?.PhoneNumber;
+    var nomeEquipamento = Model.Equipamento.Nome;
+    var mensagem = $"Olá! Tenho interesse no equipamento \"{nomeEquipamento}\" que você publicou no site Mobilidade Solidária.";
+    var urlWhatsapp = telefone != null
+        ? $"https://wa.me/55{telefone}?text={System.Net.WebUtility.UrlEncode(mensagem)}"
+        : "#";
 }
 
-<section class="py-5">
+
+<section class="py-5" style="margin-top: 100px; background-color: #fff;">
     <div class="container px-4 px-lg-5 my-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
             <div class="col-md-6">
                 <img class="img-fluid mb-5 mb-md-0"
                     src="@Url.Content(Model.Equipamento.Fotos.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
                     alt="@Model.Equipamento.Nome" />
-
             </div>
             <div class="col-md-6">
                 <div class="small mb-1">Categoria: @Model.Equipamento.Categoria.Nome</div>
                 <h1 class="display-5 fw-bolder">@Model.Equipamento.Nome</h1>
                 <p class="lead">@Model.Equipamento.Descricao</p>
                 <div class="d-flex">
-                    <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                        <i class="bi-cart-fill me-1"></i>
-                        Tenho interesse
-                    </button>
+                    @if (telefone != null)
+                    {
+                        <a href="@urlWhatsapp"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-outline-success d-flex align-items-center gap-2">
+                            <i class="bi-cart-fill"></i>
+                            <span>Tenho interesse</span>
+                            <ion-icon name="logo-whatsapp" style="font-size: 20px;"></ion-icon>
+                        </a>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary" disabled>
+                            Telefone não disponível, tente contato por e-mail:<br>
+                            <a>@Model.Equipamento.Usuario?.Email</a>
+                        </button>
+                    }
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 <!-- Related items section-->
 <section class="py-5 bg-light">
     <div class="container px-4 px-lg-5 mt-5">

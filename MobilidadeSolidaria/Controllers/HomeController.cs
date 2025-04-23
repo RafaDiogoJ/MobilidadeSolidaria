@@ -42,6 +42,7 @@ namespace MobilidadeSolidaria.Controllers
             var equipamento = _context.Equipamentos
                 .Include(e => e.Fotos)  // Incluindo as fotos
                 .Include(e => e.Categoria)  // Incluindo a categoria
+                .Include(e => e.Usuario)
                 .FirstOrDefault(e => e.Id == id);
 
             // Se o equipamento não for encontrado, retorna erro 404 (Not Found)

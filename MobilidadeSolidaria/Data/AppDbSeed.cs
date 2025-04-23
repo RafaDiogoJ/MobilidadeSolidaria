@@ -93,7 +93,8 @@ public AppDbSeed(ModelBuilder builder)
                 LockoutEnabled = true,
                 EmailConfirmed = true,
                 Nome = "Rafael Diogo de Jesus",
-                DataNascimento = DateTime.Parse("27/12/1999")
+                DataNascimento = DateTime.Parse("27/12/1999"),
+                PhoneNumber = "14998931143"
             }
         };
         foreach (var user in usuarios)

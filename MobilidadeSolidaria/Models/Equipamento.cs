@@ -33,6 +33,7 @@ namespace MobilidadeSolidaria.Models
     [ForeignKey("Usuario")]
         public string UsuarioId { get; set; }
         public Usuario Usuario { get; set; }
+        public string PhoneNumber { get; set; }
 
         [ForeignKey("Categoria")]
         public int CategoriaId { get; set; }
