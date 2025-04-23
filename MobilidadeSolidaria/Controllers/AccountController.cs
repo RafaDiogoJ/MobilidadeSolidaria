@@ -125,17 +125,21 @@ namespace MobilidadeSolidaria.Controllers;
                     if (registro.Foto != null)
                     {
                         string nomeArquivo = usuario.Id + Path.GetExtension(registro.Foto.FileName);
-                        string caminho = Path.Combine(_host.WebRootPath, @"img\usuarios");
+                        string caminho = Path.Combine(_host.WebRootPath, @"images\usuarios");
                         string novoArquivo = Path.Combine(caminho, nomeArquivo);
                         using (var stream = new FileStream(novoArquivo, FileMode.Create))
                         {
                             registro.Foto.CopyTo(stream);
                         }
-                        usuario.Foto = @"img\usuarios\" + nomeArquivo;
+                        usuario.Foto = @"images\usuarios\" + nomeArquivo;
                         await _db.SaveChangesAsync();
                     }
+
+                    // Loga o usuário automaticamente após o registro
+                                await _signInManager.SignInAsync(usuario, isPersistent: false);
+
                     TempData["Success"] = "Conta criada com Sucesso!";
-                    return RedirectToAction(nameof(Login));
+                    return RedirectToAction("Index", "Home");
                 }
 
                 foreach (var error in result.Errors)

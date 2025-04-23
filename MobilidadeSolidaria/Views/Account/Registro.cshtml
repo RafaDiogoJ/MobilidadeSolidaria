@@ -46,11 +46,21 @@
                                     <span asp-validation-for="ConfirmacaoSenha" class="text-danger text-sm"></span>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-5 cursor-pointer">
-                                <img src="~/images/usuarios/no-photo.png" id="PreviewImage" alt="Foto text-danger Avatar"
-                                    class="w-100 rounded-3" onclick="changeImage()" />
+                            <div class="col-sm-12 col-md-5" style="position: relative;"
+                                onmouseover="document.getElementById('hoverText').style.opacity='1'"
+                                onmouseout="document.getElementById('hoverText').style.opacity='0'">
+
+                                <img src="~/images/usuarios/no-photo.png" id="PreviewImage"
+                                    alt="Foto text-danger Avatar" class="w-100 rounded-3"
+                                    style="cursor: pointer; transition: filter 0.3s ease;"
+                                    onmouseover="this.style.filter='brightness(0.7)'"
+                                    onmouseout="this.style.filter='brightness(1)'" onclick="changeImage()" />
+                                    <div id="hoverText" style="position: absolute; bottom: 50%; left: 50%; transform: translateX(-50%);
+                                    color: white; font-size: 1rem; opacity: 0; transition: opacity 0.3s ease; pointer-events: none;">
+                                        Alterar foto
+                                    </div>
                                 <div hidden>
-                                    <input type="file" asp-for="Foto" accept=".jpg,accept .jpeg, .png,.gif,.jfif" />
+                                    <input type="file" asp-for="Foto" accept=".jpg,.jpeg,.png,.gif,.jfif" />
                                 </div>
                             </div>
                         </div>
