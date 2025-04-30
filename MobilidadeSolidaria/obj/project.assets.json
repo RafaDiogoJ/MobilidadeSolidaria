@@ -8704,11 +8704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria-1\\MobilidadeSolidaria\\MobilidadeSolidaria.csproj",
+      "projectUniqueName": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\MobilidadeSolidaria.csproj",
       "projectName": "MobilidadeSolidaria",
-      "projectPath": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria-1\\MobilidadeSolidaria\\MobilidadeSolidaria.csproj",
+      "projectPath": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\MobilidadeSolidaria.csproj",
       "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria-1\\MobilidadeSolidaria\\obj\\",
+      "outputPath": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

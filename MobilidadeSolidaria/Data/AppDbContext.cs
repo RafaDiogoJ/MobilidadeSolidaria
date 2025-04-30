@@ -43,4 +43,5 @@ public class AppDbContext : IdentityDbContext<Usuario>
 
         AppDbSeed seed = new(builder);
     }
+    public DbSet<MobilidadeSolidaria.Models.Categoria> Categoria { get; set; }
 }

@@ -40,6 +40,17 @@
   <link rel="stylesheet" href="~/css/flaticon.css">
   <link rel="stylesheet" href="~/css/icomoon.css">
   <link rel="stylesheet" href="~/css/style.css">
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -59,7 +70,7 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav;">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a asp-action="Index" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">Sobre nós</a></li>
           <li class="nav-item"><a href="causes.html" class="nav-link">Equipamentos</a></li>
         </ul>
@@ -89,9 +100,8 @@
               Nossa missão é facilitar esse encontro e construir uma rede de apoio entre quem pode ajudar e quem
               precisa.</p>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li><ion-icon name="logo-facebook" style="font-size: 40px;"></ion-icon></li>
+              <li><ion-icon name="logo-instagram" style="font-size: 40px;"></ion-icon></li>
             </ul>
           </div>
         </div>
@@ -103,18 +113,8 @@
               <div class="text">
                 <h3 class="heading"><a href="#">Doação de cadeira de rodas à Santa Casa de Barra Bonita</a></h3>
                 <div class="meta">
-                  <div><ion-icon style="font-size: 16px; position: absolute;" name="calendar-outline"></ion-icon><a style="margin-left: 25px;">Novembro de 2024</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
-                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  <div><ion-icon style="font-size: 16px; position: absolute;" name="calendar-outline"></ion-icon><a
+                      style="margin-left: 25px;">Novembro de 2024</a></div>
                 </div>
               </div>
             </div>
@@ -137,9 +137,12 @@
             <h2 class="ftco-heading-2">Contato</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="compass-outline"></ion-icon><span class="text">Rua das Montanhas Nº137, Bauru-SP</span></li>
-                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="call-outline"></ion-icon><span class="text">(14) 99876-5432</span></a></li>
-                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="mail-outline"></ion-icon><span class="text">contato@mobsolidaria.com.br</span></a></li>
+                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="compass-outline"></ion-icon><span
+                    class="text">Rua das Montanhas Nº137, Bauru-SP</span></li>
+                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="call-outline"></ion-icon><span
+                    class="text">(14) 99876-5432</span></a></li>
+                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="mail-outline"></ion-icon><span
+                    class="text">contato@mobsolidaria.com.br</span></a></li>
               </ul>
             </div>
           </div>
@@ -154,8 +157,25 @@
     </div>
   </footer>
   <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="~/js/popper.min.js"></script>
+  <script src="~/js/bootstrap.min.js"></script>
+  <script src="~/js/jquery.easing.1.3.js"></script>
+  <script src="~/js/jquery.waypoints.min.js"></script>
+  <script src="~/js/jquery.stellar.min.js"></script>
+  <script src="~/js/owl.carousel.min.js"></script>
+  <script src="~/js/jquery.magnific-popup.min.js"></script>
+  <script src="~/js/aos.js"></script>
+  <script src="~/js/jquery.animateNumber.min.js"></script>
+  <script src="~/js/bootstrap-datepicker.js"></script>
+  <script src="~/js/jquery.timepicker.min.js"></script>
+  <script src="~/js/scrollax.min.js"></script>
   <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="~/js/site.js" asp-append-version="true"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="~/js/google-map.js"></script>
+  <script src="~/js/main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   @await RenderSectionAsync("Scripts", required: false)
