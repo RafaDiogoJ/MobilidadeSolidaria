@@ -49,10 +49,18 @@ namespace MobilidadeSolidaria.Controllers
         // GET: Equipamentos/Create
         public IActionResult Create()
         {
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome");
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id");
+            var categorias = _context.Categoria
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Nome
+                }).ToList();
+
+            ViewBag.Categorias = categorias;
+
             return View();
         }
+
 
         // POST: Equipamentos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -87,6 +95,8 @@ namespace MobilidadeSolidaria.Controllers
             }
             ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", equipamento.UsuarioId);
+            ViewBag.Categorias = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
+
             return View(equipamento);
         }
 

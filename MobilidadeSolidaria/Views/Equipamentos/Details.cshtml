@@ -5,57 +5,42 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Details</h1>
+<h1 class="my-4">Equipamentos</h1>
+<h4 class="mb-4">Detalhes</h4>
 
-<div>
-    <h4>Equipamento</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cidade)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cidade)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Nome)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+<div class="card my-4 border-dark border-2 rounded-1">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-8 col-lg-10">
+                <div class="mb-3">
+                    <label asp-for="Nome" class="form-label"></label>
+                    <input asp-for="Nome" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                    <label asp-for="Descricao" class="form-label mt-3 mb-0"></label>
+                    <input asp-for="Descricao" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                    <label asp-for="Status" class="form-label mt-3 mb-0"></label>
+                    <input asp-for="Status" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                    <label asp-for="Cidade" class="form-label mt-3 mb-0"></label>
+                    <input asp-for="Cidade" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                    <label asp-for="Estado" class="form-label mt-3 mb-0"></label>
+                    <input asp-for="Estado" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                    <label asp-for="Usuario" class="form-label mt-3 mb-0"></label>
+                    <input asp-for="Usuario.Nome" class="form-control p-1 border-dark border-2 rounded-1" readonly />
+
+                </div>
+            </div>
+        </div>
+        <div class="d-flex mt-4">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-warning me-2">
+                <i class="fas fa-edir me-1"></i> Alterar
+            </a>
+            <a asp-action="Index" class="btn btn-outline-info">
+                <i class="fas fa-home me-1"></i> Voltar
+            </a>
+        </div>
+    </div>
+    <div>
