@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>RStore - @ViewData["Title"]</title>
+    <title>Mobilidade Solidária - @ViewData["Title"]</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="~/css/admin.css" rel="stylesheet" />
     <link href="~/css/bootstrap.css" rel="stylesheet" />
@@ -18,7 +18,7 @@
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" asp-controller="Admin" asp-action="Index">RStore</a>
+        <a class="navbar-brand ps-3" asp-controller="Admin" asp-action="Index">Mobilidade Solidária</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
                 class="fas fa-bars fs-4"></i></button>
@@ -44,8 +44,12 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <a class="nav-link mt-3" asp-controller="Admin" asp-action="Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                            Dashboard
+                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                            Principal
+                        </a>
+                        <a class="nav-link mt-4" asp-controller="Usuários" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-users    "></i></div>
+                            Usuários
                         </a>
                         <a class="nav-link" asp-controller="Categorias" asp-action="Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
@@ -72,11 +76,11 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                        <div class="text-muted">Copyright &copy; Mobilidade Solidaria @DateTime.Now.Year</div>
                         <div>
-                            <a href="#">Privacy Policy</a>
+                            <a href="#">Políticsa de Privacidade</a>
                             &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="#">Termos &amp; Condições</a>
                         </div>
                     </div>
                 </div>
