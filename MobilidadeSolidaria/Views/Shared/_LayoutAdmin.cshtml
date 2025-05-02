@@ -19,9 +19,6 @@
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
         <a class="navbar-brand ps-3" asp-controller="Admin" asp-action="Index">Mobilidade Solidária</a>
-        <!-- Sidebar Toggle-->
-        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
-                class="fas fa-bars fs-4"></i></button>
         <!-- Navbar-->
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
@@ -33,7 +30,7 @@
                     <li>
                         <hr class="dropdown-divider" />
                     </li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    <li><a class="dropdown-item" href="#!">Sair</a></li>
                 </ul>
             </li>
         </ul>
@@ -43,22 +40,22 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <a class="nav-link mt-3" asp-controller="Admin" asp-action="Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
-                            Principal
-                        </a>
-                        <a class="nav-link mt-4" asp-controller="Usuários" asp-action="Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-users    "></i></div>
-                            Usuários
-                        </a>
-                        <a class="nav-link" asp-controller="Categorias" asp-action="Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Categorias
-                        </a>
-                        <a class="nav-link" asp-controller="Produtos" asp-action="Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                            Produtos
-                        </a>
+                            <a class="nav-link mt-3" asp-controller="Admin" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                                Principal
+                            </a>
+                            <a class="nav-link mt-3" asp-controller="Usuários" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-users    "></i></div>
+                                Usuários
+                            </a>
+                            <a class="nav-link" asp-controller="Categorias" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Categorias
+                            </a>
+                            <a class="nav-link" asp-controller="Equipamentos" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Equipamentos
+                            </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
