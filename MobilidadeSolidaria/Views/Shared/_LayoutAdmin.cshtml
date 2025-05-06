@@ -23,24 +23,29 @@
                 <img src="~/images/LogoCompletaSemFundo.png" alt="Logo Mobilidade Solidária" />
             </div>
 
-            <a class="nav-link mt-2 px-4 py-2 text-white @(ViewContext.RouteData.Values["controller"]?.ToString() == "Admin" ? "active" : "")"
+            <a class="nav-link mt-2 px-4 py-2 text-black fw-semibold @(ViewContext.RouteData.Values["controller"]?.ToString() == "Admin" ? "active" : "")"
                 asp-controller="Admin" asp-action="Index">
                 <i class="fas fa-home me-2"></i>Principal
             </a>
 
-            <a class="nav-link mt-2 px-4 py-2 text-white @(ViewContext.RouteData.Values["controller"]?.ToString() == "Usuários" ? "active" : "")"
+            <a class="nav-link mt-2 px-4 py-2 text-black fw-semibold @(ViewContext.RouteData.Values["controller"]?.ToString() == "Usuários" ? "active" : "")"
                 asp-controller="Usuários" asp-action="Index">
                 <i class="fas fa-users me-2"></i>Usuários
             </a>
 
-            <a class="nav-link mt-2 px-4 py-2 text-white @(ViewContext.RouteData.Values["controller"]?.ToString() == "Categorias" ? "active" : "")"
+            <a class="nav-link mt-2 px-4 py-2 text-black fw-semibold @(ViewContext.RouteData.Values["controller"]?.ToString() == "Categorias" ? "active" : "")"
                 asp-controller="Categorias" asp-action="Index">
                 <i class="fas fa-list me-2"></i>Categorias
             </a>
 
-            <a class="nav-link mt-2 px-4 py-2 text-white @(ViewContext.RouteData.Values["controller"]?.ToString() == "Equipamentos" ? "active" : "")"
+            <a class="nav-link mt-2 px-4 py-2 text-black fw-semibold @(ViewContext.RouteData.Values["controller"]?.ToString() == "Equipamentos" ? "active" : "")"
                 asp-controller="Equipamentos" asp-action="Index">
                 <i class="fas fa-wheelchair me-2"></i>Equipamentos
+            </a>
+
+            <a class="nav-link mt-2 px-4 py-2 text-black fw-semibold @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")"
+                asp-controller="Home" asp-action="Index">
+                <i class="fas fa-left-long me-2"></i>Pagina principal
             </a>
         </div>
 
@@ -74,7 +79,7 @@
 
     .sidebar {
         width: 240px;
-        background-color: #072F57;
+        background-color: #f8f9fa;
         color: white;
         min-height: 100vh;
     }
@@ -102,7 +107,7 @@
 
     .logo-container {
         padding: 1rem;
-        background-color: #91bce7;
+        background-color: #f8f9fa;
         text-align: center;
     }
 

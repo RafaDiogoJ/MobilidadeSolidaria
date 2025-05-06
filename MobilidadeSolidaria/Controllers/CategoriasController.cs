@@ -13,10 +13,12 @@ namespace MobilidadeSolidaria.Controllers
     public class CategoriasController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IWebHostEnvironment _host;
 
-        public CategoriasController(AppDbContext context)
+        public CategoriasController(AppDbContext context, IWebHostEnvironment host)
         {
             _context = context;
+            _host = host;
         }
 
         // GET: Categorias
@@ -54,12 +56,27 @@ namespace MobilidadeSolidaria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Foto")] Categoria categoria)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Foto")] Categoria categoria, IFormFile Arquivo)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(categoria);
                 await _context.SaveChangesAsync();
+
+                if(Arquivo != null)
+                {
+                    string filename =  categoria.Id + Path.GetExtension(Arquivo.FileName);
+                    string caminho  = Path.Combine(_host.WebRootPath, "images\\categorias");
+                    string novoArquivo = Path.Combine(caminho, filename);
+                    using (FileStream stream = new FileStream(novoArquivo, FileMode.Create))
+                    {
+                        Arquivo.CopyTo(stream);
+                    }
+                    categoria.Foto = "\\images\\categorias\\"+ filename;
+                    await _context.SaveChangesAsync();
+
+                }
+                TempData["Success"] = "Categoria Cadastrada com Sucesso!";
                 return RedirectToAction(nameof(Index));
             }
             return View(categoria);
@@ -86,7 +103,7 @@ namespace MobilidadeSolidaria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Foto")] Categoria categoria)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Foto")] Categoria categoria, IFormFile Arquivo)
         {
             if (id != categoria.Id)
             {
@@ -97,6 +114,17 @@ namespace MobilidadeSolidaria.Controllers
             {
                 try
                 {
+                    if (Arquivo != null)
+                    {
+                        string filename = categoria.Id + Path.GetExtension(Arquivo.FileName);
+                        string caminho = Path.Combine(_host.WebRootPath, "images\\categorias");
+                        string novoArquivo = Path.Combine(caminho, filename);
+                        using (var stream = new FileStream(novoArquivo, FileMode.Create))
+                        {
+                            Arquivo.CopyTo(stream);
+                        }
+                        categoria.Foto = "\\images\\categorias\\" + filename;
+                    }
                     _context.Update(categoria);
                     await _context.SaveChangesAsync();
                 }
@@ -111,6 +139,7 @@ namespace MobilidadeSolidaria.Controllers
                         throw;
                     }
                 }
+                TempData["Success"] = "Categoria Alterada com Sucesso!";
                 return RedirectToAction(nameof(Index));
             }
             return View(categoria);
