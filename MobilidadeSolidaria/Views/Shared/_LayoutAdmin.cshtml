@@ -15,10 +15,23 @@
     @await RenderSectionAsync("Styles", required: false)
 </head>
 
-<body class="sb-nav-fixed">
-    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+<body>
+    <div class="d-flex">
+        <!--sidebar-->
+        <div class="sidebar d-flex flex-column">
+            <div class="logo-container">
+                <img src="~/images/LogoCompletaSemFundo.png" alt="Logo Mobilidade Solidária" />
+            </div>
+            <a href="/admin" class="active"><i class="fa fa-house me-2"></i>Principal</a>
+            <a href="/admin/usuarios"><i class="fa fa-users me-2"></i>Usuários</a>
+            <a href="/admin/categorias"><i class="fa fa-list me-2"></i>Categorias</a>
+            <a href="/admin/equipamentos"><i class="fa fa-wheelchair me-2"></i>Equipamentos</a>
+        </div>
+
+    </div>
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-white">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" asp-controller="Admin" asp-action="Index">Mobilidade Solidária</a>
+        <a class="navbar-brand ps-3 text-dark" asp-controller="Admin" asp-action="Index">Mobilidade Solidária</a>
         <!-- Navbar-->
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
@@ -40,22 +53,22 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                            <a class="nav-link mt-3" asp-controller="Admin" asp-action="Index">
-                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
-                                Principal
-                            </a>
-                            <a class="nav-link mt-3" asp-controller="Usuários" asp-action="Index">
-                                <div class="sb-nav-link-icon"><i class="fas fa-users    "></i></div>
-                                Usuários
-                            </a>
-                            <a class="nav-link" asp-controller="Categorias" asp-action="Index">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Categorias
-                            </a>
-                            <a class="nav-link" asp-controller="Equipamentos" asp-action="Index">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Equipamentos
-                            </a>
+                        <a class="nav-link mt-3" asp-controller="Admin" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                            Principal
+                        </a>
+                        <a class="nav-link mt-3" asp-controller="Usuários" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-users    "></i></div>
+                            Usuários
+                        </a>
+                        <a class="nav-link" asp-controller="Categorias" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            Categorias
+                        </a>
+                        <a class="nav-link" asp-controller="Equipamentos" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Equipamentos
+                        </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
@@ -89,5 +102,60 @@
     <script src="~/js/scripts.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .sidebar {
+        width: 240px;
+        background-color: #072F57;
+        color: white;
+        height: 100vh;
+
+    }
+
+    .sidebar a {
+        color: #d1e7dd;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        margin: 10px;
+    }
+
+    .sidebar a.active,
+    .sidebar a:hover {
+        background-color: #A5D6A7;
+        color: #072F57;
+        border-radius: 20px;
+    }
+
+    .logo-container {
+        padding: 1rem;
+        background-color: rgb(241, 241, 241);
+        text-align: center;
+    }
+
+    .logo-container img {
+        max-width: 100%;
+        height: 150px;
+
+    }
+
+    .header {
+        background-color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-content {
+        padding: 2rem;
+    }
+</style>
+
+
 
 </html>
