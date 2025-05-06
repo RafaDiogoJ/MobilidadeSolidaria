@@ -3,8 +3,61 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="container-fluid">
+    <h2 class="mb-4 fw-bold text-primary">Resumo do Sistema</h2>
+    <div class="row g-4">
+        <!-- Card Usuários -->
+        <div class="col-md-6">
+            <div class="card border-0 shadow rounded-4 bg-white">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <h5 class="card-title text-muted">Usuários cadastrados</h5>
+                        <h2 class="text-primary fw-bold">@ViewBag.totalUsuarios</h2>
+                        <!-- substitua por valor dinâmico -->
+                    </div>
+                    <i class="fas fa-users fa-2x text-primary"></i>
+                </div>
+            </div>
+        </div>
 
-<a asp-controller="Categorias" asp-action="Index">Categorias</a>
+        <!-- Card Equipamentos -->
+        <div class="col-md-6">
+            <div class="card border-0 shadow rounded-4 bg-white">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <h5 class="card-title text-muted">Equipamentos disponíveis</h5>
+                        <h2 class="text-success fw-bold">@ViewBag.totalEquipamentos</h2>
+                        <!-- substitua por valor dinâmico -->
+                    </div>
+                    <i class="fas fa-wheelchair fa-2x text-success"></i>
+                </div>
+            </div>
+        </div>
 
-<a asp-controller="Equipamentos" asp-action="Index">Equipamentos</a>
+        <!-- Card Equipamentos Indisponíveis -->
+        <div class="col-md-6"></div>
+        <div class="card border-0 shadow rounded-4 bg-white">
+            <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title text-muted">Equipamentos Indisponíveis</h5>
+                    <h2 class="text-danger fw-bold">@ViewBag.totalIndisponiveis</h2> <!-- substitua por valor dinâmico -->
+                </div>
+                <i class="fas fa-wheelchair fa-2x text-danger"></i>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+
+
+<style>
+    .card {
+        transition: transform 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+    }
+</style>
