@@ -10,7 +10,7 @@
 
 <div class="card my-4 border-dark border-2 rounded-1">
     <div class="card-body">
-        <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-md-8 col-lg-10">
@@ -31,7 +31,7 @@
 
                         <label asp-for="Categoria" class="form-label mt-4 mb-1"></label>
                         <select asp-for="CategoriaId" class="form-select border-dark border-2 rounded-1"
-                            asp-items="ViewBag.Categorias"> 
+                            asp-items="ViewBag.Categorias">
                         </select>
                         <span asp-validation-for="CategoriaId" class="text-danger"></span>
 
@@ -66,10 +66,10 @@
     <script>
         document.querySelector("input[type='file']").addEventListener('change', function () {
             if (this.files && this.files[0]) {
-            var img = document.getElementById("Preview");
-            img.src = URL.createObjectURL(this.files[0]);
-        }
-    });
+                var img = document.getElementById("Preview");
+                img.src = URL.createObjectURL(this.files[0]);
+            }
+        });
 
     </script>
 }

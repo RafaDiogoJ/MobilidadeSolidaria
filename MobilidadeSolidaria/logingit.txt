@@ -3,3 +3,4 @@ git config --global user.email "rafabbta@hotmail.com"
 
 dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
 dotnet aspnet-codegenerator controller -name EquipamentosController --model Equipamento --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
+dotnet aspnet-codegenerator controller -name UsuariosController --model Usuario --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
