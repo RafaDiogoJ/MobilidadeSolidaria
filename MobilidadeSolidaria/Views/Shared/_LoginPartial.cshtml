@@ -23,11 +23,6 @@ else
             @if (User.IsInRole("Administrador") || User.IsInRole("Funcionário"))
             {
                 <li>
-                    <a class="dropdown-item" asp-action="Index" asp-controller="Home">
-                        <i class="bi bi-house"></i>Acessar Área Pública
-                    </a>
-                </li>
-                <li>
                     <a class="dropdown-item" asp-action="Index" asp-controller="Admin">
                         <i class="bi bi-house"></i>Acessar Área Administrativa
                     </a>

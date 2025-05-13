@@ -37,6 +37,7 @@ namespace MobilidadeSolidaria.Controllers
             var equipamento = await _context.Equipamentos
                 .Include(e => e.Categoria)
                 .Include(e => e.Usuario)
+                .Include(e => e.Fotos)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (equipamento == null)
             {

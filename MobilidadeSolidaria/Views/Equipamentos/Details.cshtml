@@ -33,6 +33,27 @@
 
                 </div>
 
+                <p class="mb-0">Foto</p>
+                <div class="col-md-4 col-lg-2">
+                    @if (Model.Fotos != null && Model.Fotos.Any())
+                    {
+                        <div class="row">
+                            @foreach (var foto in Model.Fotos)
+                            {
+                                <div class="col-md-3 mb-3">
+                                    <img src="@Url.Content(foto.ArquivoFoto)" alt="@foto.Descricao" style="height: 200px;" />
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning mt-2" role="alert">
+                            <i class="fas fa-exclamation-circle me-1"></i> Equipamento não possui foto.
+                        </div>
+                    }
+                </div>
+
 
 
             </div>
@@ -49,14 +70,14 @@
     <div>
 
         @section Scripts {
-    <partial name="_ValidationScriptsPartial.cshtml"></partial>
-    <script>
-        document.querySelector("input[type='file']").addEventListener('change', function () {
-            if (this.files && this.files[0]) {
-            var img = document.getElementById("Preview");
-            img.src = URL.createObjectURL(this.files[0]);
-        }
-    });
+            <partial name="_ValidationScriptsPartial.cshtml"></partial>
+            <script>
+                document.querySelector("input[type='file']").addEventListener('change', function () {
+                    if (this.files && this.files[0]) {
+                        var img = document.getElementById("Preview");
+                        img.src = URL.createObjectURL(this.files[0]);
+                    }
+                });
 
-    </script>
-}
+            </script>
+        }

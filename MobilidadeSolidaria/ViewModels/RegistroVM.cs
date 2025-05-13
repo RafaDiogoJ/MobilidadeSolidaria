@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 
 namespace MobilidadeSolidaria.ViewModels;
 
@@ -19,6 +20,12 @@ namespace MobilidadeSolidaria.ViewModels;
         [EmailAddress(ErrorMessage ="Por favor, informe um Email válido")]
         [StringLength(100, ErrorMessage ="O Email deve possuir no máximo 100 caracteres")]
         public string Email { get; set; }
+
+        [Display(Prompt = "Informe seu Telefone")]
+        [Required(ErrorMessage ="Por favor, informe seu Telefone")]
+        [Phone(ErrorMessage ="Por favor, informe um Telefone válido")]
+        [StringLength(15, ErrorMessage ="O telefone deve possuir no máximo 15 caracteres")]
+        public string PhoneNumber { get; set;}
 
         [DataType(DataType.Password)]
         [Display(Name="Senha de acesso", Prompt = "Informe sua senha para acesso")]
