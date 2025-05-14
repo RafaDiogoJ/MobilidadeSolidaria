@@ -2,113 +2,117 @@
 @model IEnumerable<Equipamento>
 
 <!-- Card Principal-->
-  <div class="hero-wrap" style="background-image: url('images/BGImage.jpg');" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-        <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Doe o que não usa, mude a
-            vida de quem precisa.</h1>
+<div class="hero-wrap" style="background-image: url('images/BGImage.jpg');" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+      <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+        <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Doe o que não usa, mude a
+          vida de quem precisa.</h1>
 
-          <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="Account\Login"
-              class="btn btn-white btn-outline-white px-4 py-3">Quero doar</a></p>
+        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+          <a href="@(
+        User.Identity.IsAuthenticated ? Url.Action("Cadastro", "Equipamentos") : Url.Action("Login", "Account")
+    )" class="btn btn-white btn-outline-white px-4 py-3">Quero doar</a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card Informativo-->
+<section class="ftco-counter ftco-intro" id="section-counter">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
+        <div class="block-18 color-1 align-items-stretch">
+          <div class="text">
+            <strong class="number" data-number="2000000">0</strong>
+            <span>De acordo com a OMS, cerca de <br>2 milhões de pessoas precisam de uma cadeira de rodas no
+              Brasil</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+        <div class="block-18 color-2 align-items-stretch">
+          <div class="text">
+            <span>Estima-se que, globalmente, apenas 5% a 15% das pessoas que necessitam de cadeiras de rodas têm
+              acesso a elas, especialmente em países de baixa e média renda.</span>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-<!-- Card Informativo-->
-  <section class="ftco-counter ftco-intro" id="section-counter">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-1 align-items-stretch">
-            <div class="text">
-              <strong class="number" data-number="2000000">0</strong>
-              <span>De acordo com a OMS, cerca de <br>2 milhões de pessoas precisam de uma cadeira de rodas no
-                Brasil</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 color-2 align-items-stretch">
-            <div class="text">
-              <span>Estima-se que, globalmente, apenas 5% a 15% das pessoas que necessitam de cadeiras de rodas têm
-                acesso a elas, especialmente em países de baixa e média renda.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+</section>
 
 <!-- Texto -->
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row" style="justify-content: center;">
-        <h3 class="heading">A sua ajuda é muito importante</h3>
-        <p style="font-size: 17px;">Muitas pessoas enfrentam dificuldades diárias por falta de equipamentos de
-          mobilidade. Uma cadeira de rodas,
-          um andador ou uma muleta esquecida em casa pode transformar a vida de alguém. Doe e faça a diferença!
-          Seu gesto de solidariedade pode devolver autonomia e esperança para quem mais precisa.</p>
-      </div>
-  </section>
+<section class="ftco-section">
+  <div class="container">
+    <div class="row" style="justify-content: center;">
+      <h3 class="heading">A sua ajuda é muito importante</h3>
+      <p style="font-size: 17px;">Muitas pessoas enfrentam dificuldades diárias por falta de equipamentos de
+        mobilidade. Uma cadeira de rodas,
+        um andador ou uma muleta esquecida em casa pode transformar a vida de alguém. Doe e faça a diferença!
+        Seu gesto de solidariedade pode devolver autonomia e esperança para quem mais precisa.</p>
+    </div>
+</section>
 
 <!--Carrossel de itens -->
-  <section class="ftco-section bg-light">
-    <div class="container-fluid">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-5 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Alguns itens disponíveis em nosso site</h2>
-        </div>
-        <div id="equipamentosCarrossel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            @{
-              var equipamentosPorSlide = 5; // Define 5 itens por slide
-              int totalEquipamentos = Model.Count();
-              int grupos = (int)Math.Ceiling((double)totalEquipamentos / equipamentosPorSlide);
-            }
+<section class="ftco-section bg-light">
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-5 heading-section ftco-animate text-center">
+        <h2 class="mb-4">Alguns itens disponíveis em nosso site</h2>
+      </div>
+      <div id="equipamentosCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          @{
+            var equipamentosPorSlide = 5; // Define 5 itens por slide
+            int totalEquipamentos = Model.Count();
+            int grupos = (int)Math.Ceiling((double)totalEquipamentos / equipamentosPorSlide);
+          }
 
-            @for (int i = 0; i < grupos; i++)
-            {
-              <div class="carousel-item @(i == 0 ? "active" : "")">
-                <div class="d-flex flex-wrap justify-content-center gap-3">
-                  @foreach (var equipamento in Model.Skip(i * equipamentosPorSlide).Take(equipamentosPorSlide))
-                  {
-                    <div class="card shadow-sm col-md-2 col-sm-4 col-6" style="min-width: 180px; max-width: 220px;">
-                      <img src="@Url.Content(equipamento.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
-                        class="card-img-top" alt="@equipamento.Nome" style="height: 150px; object-fit: cover;">
-                      <div class="card-body text-center">
-                        <h6 class="card-title fw-bold">@equipamento.Nome</h6>
-                        <p class="card-text text-muted" style="font-size: 14px;">Disponível para @equipamento.Status</p>
+          @for (int i = 0; i < grupos; i++)
+          {
+            <div class="carousel-item @(i == 0 ? "active" : "")">
+              <div class="d-flex flex-wrap justify-content-center gap-3">
+                @foreach (var equipamento in Model.Skip(i * equipamentosPorSlide).Take(equipamentosPorSlide))
+                {
+                  <div class="card shadow-sm col-md-2 col-sm-4 col-6" style="min-width: 180px; max-width: 220px;">
+                    <img src="@Url.Content(equipamento.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
+                      class="card-img-top" alt="@equipamento.Nome" style="height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                      <h6 class="card-title fw-bold">@equipamento.Nome</h6>
+                      <p class="card-text text-muted" style="font-size: 14px;">Disponível para @equipamento.Status</p>
 
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                          <div class="text-center">
-                            <a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="Equipamento"
-                              asp-route-id="@equipamento.Id">
-                              Detalhes</a>
-                          </div>
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center">
+                          <a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="Equipamento"
+                            asp-route-id="@equipamento.Id">
+                            Detalhes</a>
                         </div>
-
                       </div>
+
                     </div>
-                  }
-                </div>
+                  </div>
+                }
               </div>
-            }
-          </div>
-          <!-- Controles do Carrossel -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#equipamentosCarrossel"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#equipamentosCarrossel"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Próximo</span>
-          </button>
+            </div>
+          }
         </div>
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#equipamentosCarrossel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#equipamentosCarrossel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
       </div>
     </div>
-  </section>
+  </div>
+</section>

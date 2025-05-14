@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using MobilidadeSolidaria.Data;
 using MobilidadeSolidaria.Models;
 
@@ -18,6 +15,14 @@ namespace MobilidadeSolidaria.Controllers
         {
             _context = context;
         }
+
+        
+        [Authorize] // Garante que apenas usuários logados acessem
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+
 
         // GET: Equipamentos
         public async Task<IActionResult> Index()
