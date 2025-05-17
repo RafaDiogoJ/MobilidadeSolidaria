@@ -21,7 +21,7 @@ namespace MobilidadeSolidaria.ViewModels;
         [StringLength(100, ErrorMessage ="O Email deve possuir no máximo 100 caracteres")]
         public string Email { get; set; }
 
-        [Display(Prompt = "Informe seu Telefone")]
+        [Display(Name = "Número de telefone", Prompt = "Informe seu telefone")]
         [Required(ErrorMessage ="Por favor, informe seu Telefone")]
         [Phone(ErrorMessage ="Por favor, informe um Telefone válido")]
         [StringLength(15, ErrorMessage ="O telefone deve possuir no máximo 15 caracteres")]

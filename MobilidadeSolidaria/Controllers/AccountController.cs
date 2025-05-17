@@ -112,6 +112,7 @@ namespace MobilidadeSolidaria.Controllers;
                 usuario.UserName = registro.Email;
                 usuario.NormalizedUserName = registro.Email.ToUpper();
                 usuario.Email = registro.Email;
+                usuario.PhoneNumber = registro.PhoneNumber;
                 usuario.NormalizedEmail = registro.Email.ToUpper();
                 usuario.EmailConfirmed = true;
                 var result = await _userManager.CreateAsync(usuario, registro.Senha);

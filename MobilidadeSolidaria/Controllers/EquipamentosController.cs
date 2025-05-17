@@ -20,6 +20,13 @@ namespace MobilidadeSolidaria.Controllers
         [Authorize] // Garante que apenas usuários logados acessem
         public IActionResult Cadastro()
         {
+            ViewBag.Categorias = _context.Categoria
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Nome
+                }).ToList();
+
             return View();
         }
 

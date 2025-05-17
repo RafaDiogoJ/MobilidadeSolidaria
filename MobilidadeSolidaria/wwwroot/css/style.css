@@ -7627,13 +7627,13 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f86f2d;
-    border: 1px solid #f86f2d;
+    background: #4ca9c5;
+    border: 1px solid #4ca9c5;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #f86f2d;
+      border: 1px solid #4ca9c5;
       background: transparent !important;
-      color: #f86f2d; }
+      color: #4ca9c5; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #f86f2d;
       background: transparent;

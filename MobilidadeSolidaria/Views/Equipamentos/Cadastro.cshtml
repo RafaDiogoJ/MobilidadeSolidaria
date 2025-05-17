@@ -12,42 +12,44 @@
                     <form asp-action="Cadastrar" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="Nome" class="form-label" style=" font-weight: bold;">Nome do Equipamento</label>
-                            <input type="text" class="form-control" style="font-weight: lighter;" id="Nome" name="Nome" placeholder="Ex: Cadeira de rodas" required>
+                            <input type="text" class="form-control" style="font-weight: lighter;" id="Nome" name="Nome"
+                                placeholder="Ex: Cadeira de rodas" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="Descricao" class="form-label" style=" font-weight: bold;">Descrição</label>
-                            <textarea class="form-control" style= "font-weight: lighter;" id="Descricao" name="Descricao" rows="4" placeholder="Descreva o máximo de informações possíveis" required></textarea>
+                            <textarea class="form-control" style="font-weight: lighter;" id="Descricao" name="Descricao"
+                                rows="4" placeholder="Descreva o máximo de informações possíveis" required></textarea>
                         </div>
 
                         <div class="mb-3">
-                            <label for="Categoria" class="form-label">Categoria</label>
-                            <select class="form-select" id="Categoria" name="Categoria" required>
+                            <label for="CategoriaId" class="form-label" style="font-weight: bold;">Categoria</label>
+                            <select class="form-select" id="CategoriaId" name="CategoriaId" style="font-weight: lighter;" required>
                                 <option value="">Selecione</option>
-                                <option value="Cadeira de rodas">Cadeira de rodas</option>
-                                <option value="Andador">Andador</option>
-                                <option value="Bengala">Bengala</option>
-                                <option value="Outros">Outros</option>
-                            </select>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="Condicao" class="form-label">Condição</label>
-                            <select class="form-select" id="Condicao" name="Condicao" required>
-                                <option value="">Selecione</option>
-                                <option value="Novo">Novo</option>
-                                <option value="Usado - Bom estado">Usado - Bom estado</option>
-                                <option value="Usado - Com desgaste">Usado - Com desgaste</option>
+                                @foreach (var categoria in ViewBag.Categorias as List<SelectListItem>)
+                                {
+                                    <option value="@categoria.Value">@categoria.Text</option>
+                                }
                             </select>
                         </div>
 
                         <div class="mb-4">
-                            <label for="Imagem" class="form-label">Imagem do Equipamento</label>
-                            <input type="file" class="form-control" id="Imagem" name="Imagem" accept="image/*">
+                            <label for="Imagem" class="form-label fw-semibold">Fotos do Equipamento</label>
+                            <div class="border border-2 rounded-3 p-4 text-center bg-light position-relative">
+                                <input type="file"
+                                    class="form-control position-absolute top-0 start-0 w-100 h-100 opacity-0"
+                                    id="Imagem" name="Imagem" accept="image/*">
+                                <div>
+                                    <i class="bi bi-cloud-upload" style="font-size: 2rem; color: #0d6efd;"></i>
+                                    <p class="mt-2 mb-0 text-muted">Clique ou arraste uma imagem aqui</p>
+                                </div>
+                            </div>
                         </div>
 
+
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+                            <button type="submit" class="btn btn-primary btn-lg"
+                                style="background-color: #4ca9c5;">Cadastrar</button>
                         </div>
                     </form>
                 </div>
