@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using MobilidadeSolidaria.Data;
 using MobilidadeSolidaria.Models;
+using MobilidadeSolidaria.ViewModels;
+using System.Security.Claims;
 
 namespace MobilidadeSolidaria.Controllers
 {
@@ -27,7 +29,40 @@ namespace MobilidadeSolidaria.Controllers
                     Text = c.Nome
                 }).ToList();
 
-            return View();
+            return View(new CadastroEquipamentoVM());
+        }
+
+
+        [HttpPost]
+        [Authorize]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Cadastro(CadastroEquipamentoVM vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Categorias = _context.Categoria
+                    .Select(c => new SelectListItem
+                    {
+                        Value = c.Id.ToString(),
+                        Text = c.Nome
+                    }).ToList();
+
+                return View(vm);
+            }
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Obtém o ID do usuário logado
+
+            var equipamento = new Equipamento
+            {
+                Nome = vm.Nome,
+                Descricao = vm.Descricao,
+                UsuarioId = userId // Atribui o usuário logado
+            };
+
+            _context.Equipamentos.Add(equipamento);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
 
 

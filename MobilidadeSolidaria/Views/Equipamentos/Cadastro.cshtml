@@ -1,4 +1,4 @@
-@model MobilidadeSolidaria.ViewModels.EquipamentoVM
+@model MobilidadeSolidaria.ViewModels.CadastroEquipamentoVM
 @{
     ViewData["Title"] = "Cadastro de Equipamento";
 }
@@ -11,20 +11,21 @@
                     <h2 class="mb-4 text-center">Cadastro de Equipamento</h2>
                     <form asp-action="Cadastrar" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
-                            <label for="Nome" class="form-label" style=" font-weight: bold;">Nome do Equipamento</label>
-                            <input type="text" class="form-control" style="font-weight: lighter;" id="Nome" name="Nome"
-                                placeholder="Ex: Cadeira de rodas" required>
+                            <label asp-for="Nome" class="mb-0 fw-semibold">Nome</label>
+                            <input class="form-control" asp-for="Nome" />
+                            <span asp-validation-for="Nome" class="text-danger text-sm"></span>
                         </div>
-
-                        <div class="mb-3">
-                            <label for="Descricao" class="form-label" style=" font-weight: bold;">Descrição</label>
-                            <textarea class="form-control" style="font-weight: lighter;" id="Descricao" name="Descricao"
-                                rows="4" placeholder="Descreva o máximo de informações possíveis" required></textarea>
+                        <div>
+                            <label asp-for="Descricao" class="mb-0 fw-semibold">Descrição</label>
+                            <input class="form-control" asp-for="Descricao" />
+                            <span asp-validation-for="Descricao" class="text-danger text-sm"></span>
                         </div>
+                        <div class="mt-3 mb-3">
 
-                        <div class="mb-3">
-                            <label for="CategoriaId" class="form-label" style="font-weight: bold;">Categoria</label>
-                            <select class="form-select" id="CategoriaId" name="CategoriaId" style="font-weight: lighter;" required>
+                            <label asp-for="Categoria" class="mb-0 fw-semibold"></label>
+                            <span asp-validation-for="Categoria" class="text-danger text-sm"></span>
+                            <select class="form-select" id="CategoriaId" name="CategoriaId"
+                                style="font-weight: lighter;" required>
                                 <option value="">Selecione</option>
                                 @foreach (var categoria in ViewBag.Categorias as List<SelectListItem>)
                                 {
@@ -34,7 +35,7 @@
                         </div>
 
                         <div class="mb-4">
-                            <label for="Imagem" class="form-label fw-semibold">Fotos do Equipamento</label>
+                            <label for="Imagem" class="form-label fw-semibold mb-0">Fotos do Equipamento</label>
                             <div class="border border-2 rounded-3 p-4 text-center bg-light position-relative">
                                 <input type="file"
                                     class="form-control position-absolute top-0 start-0 w-100 h-100 opacity-0"
@@ -44,7 +45,7 @@
                                     <p class="mt-2 mb-0 text-muted">Clique ou arraste uma imagem aqui</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
 
 
                         <div class="d-grid">
