@@ -20,6 +20,10 @@ namespace MobilidadeSolidaria.ViewModels
         [Display(Name = "Categoria")]
         public string Categoria { get; set; }
 
+        [Required(ErrorMessage = "Por favor, selecione uma categoria")]
+        [Display(Name = "Categoria")]
+        public int CategoriaId { get; set; }
+
         public StatusEquipamento Status { get; set; }
 
         public IEnumerable<SelectListItem> StatusDisponiveis { get; set; }

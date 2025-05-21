@@ -132,7 +132,7 @@ namespace MobilidadeSolidaria.Controllers;
                         {
                             registro.Foto.CopyTo(stream);
                         }
-                        usuario.Foto = @"images\usuarios\" + nomeArquivo;
+                        usuario.Foto = @"\images\usuarios\" + nomeArquivo;
                         await _db.SaveChangesAsync();
                     }
 

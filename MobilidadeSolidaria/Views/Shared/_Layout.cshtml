@@ -41,16 +41,6 @@
   <link rel="stylesheet" href="~/css/icomoon.css">
   <link rel="stylesheet" href="~/css/style.css">
 
-
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
@@ -70,7 +60,9 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav;">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a asp-action="Index" class="nav-link">Home</a></li>
+          <li class="nav-item active">
+            <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+          </li>
           <li class="nav-item"><a href="about.html" class="nav-link">Sobre nós</a></li>
           <li class="nav-item"><a href="causes.html" class="nav-link">Equipamentos</a></li>
         </ul>
@@ -88,7 +80,7 @@
   <footer class="ftco-footer ftco-section img">
     <div class="overlay"></div>
     <div class="container">
-      <div class="row mb-1" style="justify-content: center;" >
+      <div class="row mb-1" style="justify-content: center;">
         <div class="col-md-5">
           <div class="ftco-footer-widget mb-1">
             <h2 class="ftco-heading-2">Sobre nós</h2>
@@ -105,22 +97,7 @@
             </ul>
           </div>
         </div>
-        @* <div class="col-md-4">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Divulgando Solidariedade</h2>
-            <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/ImagemNoticia.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Doação de cadeira de rodas à Santa Casa de Barra Bonita</a></h3>
-                <div class="meta">
-                  <div><ion-icon style="font-size: 16px; position: absolute;" name="calendar-outline"></ion-icon><a
-                      style="margin-left: 25px;">Novembro de 2024</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> *@
-        <div class="col-md-2" >
+        <div class="col-md-2">
           <div class="ftco-footer-widget mb-4 ml-md-4">
             <h2 class="ftco-heading-2">Links</h2>
             <ul class="list-unstyled">
@@ -172,8 +149,7 @@
   <script src="~/js/scrollax.min.js"></script>
   <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="~/js/site.js" asp-append-version="true"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  @* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> *@
   <script src="~/js/google-map.js"></script>
   <script src="~/js/main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

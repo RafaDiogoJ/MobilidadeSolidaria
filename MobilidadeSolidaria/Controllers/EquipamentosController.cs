@@ -38,7 +38,7 @@ namespace MobilidadeSolidaria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Cadastro(CadastroEquipamentoVM vm)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 ViewBag.Categorias = _context.Categoria
                     .Select(c => new SelectListItem
@@ -52,17 +52,20 @@ namespace MobilidadeSolidaria.Controllers
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Obtém o ID do usuário logado
 
+            var categoria = await _context.Categoria.FindAsync(vm.CategoriaId);
+
             var equipamento = new Equipamento
             {
                 Nome = vm.Nome,
                 Descricao = vm.Descricao,
+                Categoria = categoria,
                 UsuarioId = userId // Atribui o usuário logado
             };
 
             _context.Equipamentos.Add(equipamento);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
 

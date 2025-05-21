@@ -28,9 +28,10 @@
 
                 <p class="mb-0">Foto</p>
                 <div class="col-md-4 col-lg-2">
-                    @if (!string.IsNullOrEmpty(Model.Foto))
+                    @if (Model.Foto != null && Model.Foto.Any())
                     {
-                        <img src="~/@Model.Foto" asp-append-version="true" alt="Foto do Usuário" class="img-fluid w-100" />
+                        <img src="@Url.Content(Model.Foto)" asp-append-version="true" alt="Foto do Usuário" class="img-fluid w-100" />
+
                     }
                     else
                     {

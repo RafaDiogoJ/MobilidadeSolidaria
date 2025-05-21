@@ -9,7 +9,7 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body p-5">
                     <h2 class="mb-4 text-center">Cadastro de Equipamento</h2>
-                    <form asp-action="Cadastrar" method="post" enctype="multipart/form-data">
+                    <form asp-action="Cadastro" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label asp-for="Nome" class="mb-0 fw-semibold">Nome</label>
                             <input class="form-control" asp-for="Nome" />
@@ -21,36 +21,22 @@
                             <span asp-validation-for="Descricao" class="text-danger text-sm"></span>
                         </div>
                         <div class="mt-3 mb-3">
-
-                            <label asp-for="Categoria" class="mb-0 fw-semibold"></label>
-                            <span asp-validation-for="Categoria" class="text-danger text-sm"></span>
-                            <select class="form-select" id="CategoriaId" name="CategoriaId"
+                            <label asp-for="CategoriaId" class="mb-0 fw-semibold"></label>
+                            <select asp-for="CategoriaId" class="form-select" asp-items="ViewBag.Categorias"
                                 style="font-weight: lighter;" required>
                                 <option value="">Selecione</option>
-                                @foreach (var categoria in ViewBag.Categorias as List<SelectListItem>)
-                                {
-                                    <option value="@categoria.Value">@categoria.Text</option>
-                                }
                             </select>
+                            <span asp-validation-for="CategoriaId" class="text-danger text-sm"></span>
                         </div>
+                        <div class="mb-3">
 
-                        <div class="mb-4">
-                            <label for="Imagem" class="form-label fw-semibold mb-0">Fotos do Equipamento</label>
-                            <div class="border border-2 rounded-3 p-4 text-center bg-light position-relative">
-                                <input type="file"
-                                    class="form-control position-absolute top-0 start-0 w-100 h-100 opacity-0"
-                                    id="Imagem" name="Imagem" accept="image/*">
-                                <div>
-                                    <i class="bi bi-cloud-upload" style="font-size: 2rem; color: #0d6efd;"></i>
-                                    <p class="mt-2 mb-0 text-muted">Clique ou arraste uma imagem aqui</p>
-                                </div>
-                            </div>
-                        </div> 
+                            <label asp-for="Fotos" class="form-label fw-semibold mb-0"></label>
+                        <input type="file" id="Arquivo" name="Arquivo"
+                            class="form-control p-2 rounded-1" accept=".jpg,.jpeg,.png,.gif;" />
 
-
+                        </div>
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg"
-                                style="background-color: #4ca9c5;">Cadastrar</button>
+                            <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Equipamento">
                         </div>
                     </form>
                 </div>
