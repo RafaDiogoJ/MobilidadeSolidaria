@@ -105,8 +105,12 @@
       "PackagePath": "staticwebassets\\images\\BGImage.jpg"
     },
     {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\BGNovo.jpg",
-      "PackagePath": "staticwebassets\\images\\BGNovo.jpg"
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\BGPagSobreNos.jpg",
+      "PackagePath": "staticwebassets\\images\\BGPagSobreNos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\BGSobreNos.jpg",
+      "PackagePath": "staticwebassets\\images\\BGSobreNos.jpg"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\Equipamentos\\1\\1.png",

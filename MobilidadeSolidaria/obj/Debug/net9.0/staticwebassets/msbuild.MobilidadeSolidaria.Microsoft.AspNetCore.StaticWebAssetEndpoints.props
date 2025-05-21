@@ -336,14 +336,26 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-biUNfQxEmnPh4CF6ERcUZEqapG50DfUCE2yBPjiPhZQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1588332"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022biUNfQxEmnPh4CF6ERcUZEqapG50DfUCE2yBPjiPhZQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 22:45:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGNovo.1m1dempt0y.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGNovo.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGPagSobreNos.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGPagSobreNos.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1m1dempt0y"},{"Name":"integrity","Value":"sha256-af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/BGNovo.jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9D0HuyfizUNqtl\u002BIHSud4s06xMjcdQXetew0SVFGZY4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"951208"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229D0HuyfizUNqtl\u002BIHSud4s06xMjcdQXetew0SVFGZY4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 01:10:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGPagSobreNos.w1r8bms5om.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGPagSobreNos.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w1r8bms5om"},{"Name":"integrity","Value":"sha256-9D0HuyfizUNqtl\u002BIHSud4s06xMjcdQXetew0SVFGZY4="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/BGPagSobreNos.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"951208"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229D0HuyfizUNqtl\u002BIHSud4s06xMjcdQXetew0SVFGZY4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 01:10:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGSobreNos.1m1dempt0y.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGSobreNos.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1m1dempt0y"},{"Name":"integrity","Value":"sha256-af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/BGSobreNos.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"907773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 22:45:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGNovo.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGNovo.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/BGSobreNos.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGSobreNos.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"907773"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 22:45:03 GMT"}]]]></ResponseHeaders>
