@@ -105,8 +105,8 @@
             <h2 class="ftco-heading-2">Links</h2>
             <ul class="list-unstyled">
               <li><a href="/" class="py-2 d-block">Home</a></li>
-              <li><a href="#" class="py-2 d-block">Sobre nós</a></li>
-              <li><a href="#" class="py-2 d-block">Quero doar</a></li>
+              <a asp-controller="Home" asp-action="SobreNos" class="py-2 d-block">Sobre nós</a>
+              <a asp-controller="Equipamentos" asp-action="Cadastro" class="py-2 d-block">Quero doar</a>
               <li><a href="#" class="py-2 d-block">Equipamentos</a></li>
               <li><a href="#" class="py-2 d-block">Minha conta</a></li>
             </ul>
@@ -117,8 +117,6 @@
             <h2 class="ftco-heading-2">Contato</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="compass-outline"></ion-icon><span
-                    class="text">Rua das Montanhas Nº137, Bauru-SP</span></li>
                 <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="call-outline"></ion-icon><span
                     class="text">(14) 99876-5432</span></a></li>
                 <li><ion-icon style="font-size: 32px; margin-right: 10px;" name="mail-outline"></ion-icon><span

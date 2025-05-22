@@ -3,14 +3,11 @@
     ViewData["Title"] = "Sobre nós";
 }
 
-<section class="text-white text-center d-flex align-items-center" 
-         style="background-image: url('/images/BGPagSobreNos.jpg'); 
+<section class="text-white text-center d-flex align-items-center" style="background-image: url('/images/BGSobreNos.jpg'); 
                 background-size: cover; 
                 background-position: center; 
                 height: 100vh;
-                padding-top: 100px;"> <!-- Adicionado -->
-    <div class="container my-auto">
-        <p class="lead mt-4">Conectamos doadores a quem mais precisa de equipamentos de mobilidade, promovendo inclusão e solidariedade.</p>
+    <div class=" container my-auto">
     </div>
 </section>
 
@@ -19,11 +16,30 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="/images/Mulhernacadeiraderodas.png" class="img-fluid rounded-4 w-75" alt="Foto representativa sobre inclusão">
+                <img src="/images/Mulhernacadeiraderodas.png" class="img-fluid rounded-4 w-75"
+                    alt="Foto representativa sobre inclusão">
             </div>
             <div class="col-md-6">
-                <h2 class="fw-bold">Como tudo começou</h2>
-                <p>Nosso projeto nasceu com o propósito de facilitar o acesso a equipamentos de mobilidade, promovendo a solidariedade entre pessoas e comunidades.</p>
+                @* <h2 class="fw-bold">Como tudo começou</h2> *@
+                <h3>Nosso projeto nasceu com o propósito de facilitar o acesso a equipamentos de mobilidade, promovendo
+                    a solidariedade entre pessoas e comunidades.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color: rgb(216, 216, 216);">
+    <div class=" container">
+        <div class="row align-items-center">
+            <div class="text-center mt-4">
+                <h3>O que está esquecido por você pode ser indispensável para outra pessoa. Faça a diferença, doe já!</h3>
+            </div>
+            <div class=" text-center align-items-center mt-4 mb-4">
+                <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                    <a href="@(
+                        User.Identity.IsAuthenticated ? Url.Action("Cadastro", "Equipamentos") : Url.Action("Login", "Account")
+                    )" class="btn btn-white btn-outline-white px-4 py-3">Quero doar</a>
+                </p>
             </div>
         </div>
     </div>

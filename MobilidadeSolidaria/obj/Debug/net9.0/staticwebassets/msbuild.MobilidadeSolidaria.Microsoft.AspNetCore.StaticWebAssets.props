@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1m1dempt0y</Fingerprint>
-      <Integrity>af9n91vVZZY4oiOXsN2mqaA3FjQdE45WeIx4QpjsGs0=</Integrity>
+      <Fingerprint>mz5xa55gr2</Fingerprint>
+      <Integrity>kmr/ISw4iPxxbd0EhOdDKcrpomHy4D6w+4L3yTi2G40=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\BGSobreNos.jpg'))</OriginalItemSpec>
