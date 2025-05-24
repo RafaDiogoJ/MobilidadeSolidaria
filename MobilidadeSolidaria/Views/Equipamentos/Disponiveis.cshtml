@@ -1,5 +1,28 @@
-@model MobilidadeSolidaria.ViewModels.EquipamentoVM
+@model List<MobilidadeSolidaria.Models.Equipamento>
 @{
     ViewData["Title"] = "Equipamentos Disponíveis";
 }
+<section style="margin-top: 85px; background-color: #f3f3f3;">
+    <h1>Equipamentos Disponíveis</h1>
 
+    <div class="row mt-3" style="justify-content: space-evenly;">
+        @foreach (var item in Model)
+        {
+            <div class="card mt-3 " style="width: 18rem;">
+                <div class="text-center">
+                <img src="@Url.Content(item.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")" class="card-img-top; w-50">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title; fw-bold" style="">@item.Nome</h5>
+                    <p class="card-text">@item.Descricao</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Disponível para @item.Status</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+
+        }
+    </div>

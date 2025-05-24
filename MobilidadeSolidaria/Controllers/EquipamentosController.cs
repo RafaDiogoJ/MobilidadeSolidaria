@@ -18,7 +18,7 @@ namespace MobilidadeSolidaria.Controllers
             _context = context;
         }
 
-        
+
         [Authorize] // Garante que apenas usuários logados acessem
         public IActionResult Cadastro()
         {
@@ -75,6 +75,18 @@ namespace MobilidadeSolidaria.Controllers
             var appDbContext = _context.Equipamentos.Include(e => e.Categoria).Include(e => e.Usuario);
             return View(await appDbContext.ToListAsync());
         }
+
+        public async Task<IActionResult> Disponiveis()
+        {
+            var equipamentosDisponiveis = await _context.Equipamentos
+                .Where(e => e.Status != StatusEquipamento.Indisponivel)
+                .Include(e => e.Fotos)  // Incluindo as fotos dos equipamentos
+                .ToListAsync();
+
+            return View(equipamentosDisponiveis);
+        }
+
+
 
         // GET: Equipamentos/Details/5
         public async Task<IActionResult> Details(int? id)
