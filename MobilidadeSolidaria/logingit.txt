@@ -4,9 +4,9 @@ git config --global user.email "rafabbta@hotmail.com"
 
 Cores: 
 Azul escuro #1e3f66
-Azul Claro #4ca9c5 
+Azul Claro #4ca9c5
 Verde escuro #4e8e3c
-Verde claro #92bc5b   
+Verde claro #92bc5b
 
 dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
 dotnet aspnet-codegenerator controller -name EquipamentosController --model Equipamento --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
