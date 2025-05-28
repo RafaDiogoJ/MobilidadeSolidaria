@@ -83,7 +83,7 @@
                     <img src="@Url.Content(equipamento.Fotos?.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
                       class="card-img-top" alt="@equipamento.Nome" style="height: 150px; object-fit: cover;">
                     <div class="card-body text-center">
-                      <h6 class="card-title fw-bold">@equipamento.Nome</h6>
+                      <h6 class="card-title fw-bold" style="min-height: 45px;">@equipamento.Nome</h6>
                       <p class="card-text text-muted" style="font-size: 14px;">Disponível para @equipamento.Status</p>
 
                       <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
