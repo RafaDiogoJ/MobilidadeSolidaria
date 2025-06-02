@@ -3,16 +3,20 @@
     ViewData["Title"] = "Equipamentos Disponíveis";
 }
 <section style="margin-top: 85px; background-color: #f3f3f3; max-width: 100%;">
-    <div class="container">
-        <div class="d-flex justify-content-center align-items-center text-center my-0" style="height: 85px; width: 100%;">
-            <h1 class="fw-bold d-flex align-items-center gap-2">
-                <i class="bi bi-box-seam text-success" style="font-size: 1.8rem;"></i>
+    <div>
+        <div class="d-flex flex-column justify-content-center align-items-center text-center my-0"
+            style="height: 250px; width: 100%; background: linear-gradient(135deg, #1e3f66 45%, #4e8e3c 100%);">
+            <i class="bi bi-box" style="font-size: 4rem; color:white;"></i>
+            <h1 class="fw-bold d-flex align-items-center gap-2 text-white">
                 Equipamentos Disponíveis
             </h1>
+            <h4 class="d-flex align-items-center gap-2 text-white">
+                Confira todos os itens dísponíveis para doação ou empréstimo
+            </h4>
         </div>
 
 
-        <div class="d-flex flex-wrap justify-content-center gap-4 mt-3">
+        <div class=" container d-flex flex-wrap justify-content-center gap-4 mt-3">
             @foreach (var item in Model)
             {
                 <a asp-controller="Home" asp-action="Equipamento" asp-route-id="@item.Id">
