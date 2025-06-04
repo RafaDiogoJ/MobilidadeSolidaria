@@ -4,12 +4,12 @@
     Layout = "~/Views/Shared/_LayoutAccount.cshtml";
 }
 
-
 <div style="text-align: center; margin-bottom: 20px; margin-top: 20px;">
     <a href="/">
         <img src="/images/ImgLogoSemFundo.png" alt="Logotipo" style="max-width: 160px; max-height: 160px;">
     </a>
 </div>
+
 <div class="container">
     <div class="row justify-content-center my-3">
         <div class="col-lg-8">
@@ -20,8 +20,8 @@
                 <div class="card-body">
                     <form asp-action="Registro" method="post" enctype="multipart/form-data">
                         <div asp-validation-summary="ModelOnly" hidden></div>
-                        <div class="mb-3">
-                            <div class="col-sm-12 col-md-7">
+                        <div class="row">
+                            <div class="col-md-7">
                                 <div class="form-floating mb-2">
                                     <input class="form-control" asp-for="Nome" />
                                     <label asp-for="Nome"></label>
@@ -53,12 +53,11 @@
                                     <span asp-validation-for="ConfirmacaoSenha" class="text-danger text-sm"></span>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-5" style="position: relative;"
+                            <div class="col-md-5 d-flex align-items-center justify-content-center" style="position: relative;"
                                 onmouseover="document.getElementById('hoverText').style.opacity='1'"
                                 onmouseout="document.getElementById('hoverText').style.opacity='0'">
-
                                 <img src="~/images/usuarios/no-photo.png" id="PreviewImage"
-                                    alt="Foto text-danger Avatar" class="w-100 rounded-3"
+                                    alt="Foto Avatar" class="w-100 rounded-3"
                                     style="cursor: pointer; transition: filter 0.3s ease;"
                                     onmouseover="this.style.filter='brightness(0.7)'"
                                     onmouseout="this.style.filter='brightness(1)'" onclick="changeImage()" />
@@ -72,7 +71,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="d-flex flex-column align-items-center justify-content-center mt-4 mb-0">
                             <input type="submit" class="btn btn-primary w-100 mb-3" value="Criar conta">
                         </div>

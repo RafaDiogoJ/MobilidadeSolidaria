@@ -12,18 +12,16 @@
                 <div class="card-body p-5">
                     <h2 class="mb-4 text-center fw-bold">Gerenciamento de conta</del></h2>
                     <hr>
-                    <div style="display:flex ;width: 100%; justify-content: center;">
+                    <div class="mb-3" style="display:flex ;width: 100%; justify-content: center;">
                         <div class="col-sm-12 col-md-5" style="position: relative;"
                             onmouseover="document.getElementById('hoverText').style.opacity='1'"
                             onmouseout="document.getElementById('hoverText').style.opacity='0'">
-@* 
-                            @if (Usuario.Foto != null) {
-
-                            } *@
 
 
-                            <img src="~/images/usuarios/no-photo.png" id="PreviewImage" alt="Foto text-danger Avatar"
-                                class="w-100 rounded-3" style="cursor: pointer; transition: filter 0.3s ease;"
+
+                            <img src='@Url.Content(Model.FotoUrl ?? "~/images/usuarios/no-user.png")'
+                                id="PreviewImage" alt="Foto text-danger Avatar" class="w-100 rounded-3"
+                                style="cursor: pointer; transition: filter 0.3s ease;"
                                 onmouseover="this.style.filter='brightness(0.7)'"
                                 onmouseout="this.style.filter='brightness(1)'" onclick="changeImage()" />
                             <div id="hoverText"
@@ -48,14 +46,19 @@
                             <span asp-validation-for="Email" class="text-danger text-sm"></span>
                         </div>
                         <div class="mt-3 mb-3">
-                            <label asp-for="SenhaAtual" class="mb-0 fw-semibold"></label>
+                            <label asp-for="SenhaAtual" class="mb-0 fw-semibold">Senha atual</label>
                             <input class="form-control" asp-for="SenhaAtual" />
                             <span asp-validation-for="SenhaAtual" class="text-danger text-sm"></span>
                         </div>
                         <div class="mb-3">
-                            <label asp-for="NovaSenha" class="mb-0 fw-semibold">Nome</label>
+                            <label asp-for="NovaSenha" class="mb-0 fw-semibold">Nova senha</label>
                             <input class="form-control" asp-for="NovaSenha" />
                             <span asp-validation-for="NovaSenha" class="text-danger text-sm"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ConfirmacaoNovaSenha" class="mb-0 fw-semibold">Cofirmação de senha</label>
+                            <input class="form-control" asp-for="ConfirmacaoNovaSenha" />
+                            <span asp-validation-for="ConfirmacaoNovaSenha" class="text-danger text-sm"></span>
                         </div>
                         <div class="d-grid">
                             <input type="submit" class="btn btn-primary btn-lg" value="Salvar alterações">
@@ -84,52 +87,3 @@
         });
     </script>
 }
-
-
-
-
-
-
-
-
-
-<h2>Gerenciar Perfil</h2>
-
-<form asp-action="Editar" method="post" enctype="multipart/form-data">
-    <div>
-        <label asp-for="Nome"></label>
-        <input asp-for="Nome" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-    </div>
-
-    <div>
-        <label>Foto Atual:</label>
-        <img src="@Model.FotoUrl" width="100" />
-    </div>
-
-    <div>
-        <label asp-for="Foto"></label>
-        <input asp-for="Foto" type="file" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="SenhaAtual"></label>
-        <input asp-for="SenhaAtual" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="NovaSenha"></label>
-        <input asp-for="NovaSenha" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="ConfirmacaoNovaSenha"></label>
-        <input asp-for="ConfirmacaoNovaSenha" class="form-control" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Salvar</button>
-</form>

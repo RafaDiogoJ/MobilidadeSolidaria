@@ -176,7 +176,7 @@ public class AccountController : Controller
         await _userManager.UpdateAsync(usuario);
 
         TempData["Success"] = "Perfil atualizado com sucesso!";
-        return RedirectToAction("Editar");
+        return RedirectToAction("Index","Home");
     }
 
 
