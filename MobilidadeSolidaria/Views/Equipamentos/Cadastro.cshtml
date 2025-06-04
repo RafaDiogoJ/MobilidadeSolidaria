@@ -31,9 +31,7 @@
                         <div class="mb-3">
 
                             <label asp-for="Fotos" class="form-label fw-semibold mb-0"></label>
-                        <input type="file" id="Arquivo" name="Arquivo"
-                            class="form-control p-2 rounded-1" accept=".jpg,.jpeg,.png,.gif;" />
-
+                        <input type="file" asp-for="Fotos" class="form-control p-2 rounded-1" accept=".jpg,.jpeg,.png,.gif;" />
                         </div>
                         <div class="d-grid">
                             <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Equipamento">

@@ -1,0 +1,46 @@
+ @model MobilidadeSolidaria.ViewModels.PerfilVM
+ @{
+    ViewData["Title"] = "Perfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+ }
+
+ <h2>Gerenciar Perfil</h2>
+
+<form asp-action="Editar" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div>
+        <label>Foto Atual:</label>
+        <img src="@Model.FotoUrl" width="100" />
+    </div>
+
+    <div>
+        <label asp-for="Foto"></label>
+        <input asp-for="Foto" type="file" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="SenhaAtual"></label>
+        <input asp-for="SenhaAtual" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="NovaSenha"></label>
+        <input asp-for="NovaSenha" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="ConfirmacaoNovaSenha"></label>
+        <input asp-for="ConfirmacaoNovaSenha" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
