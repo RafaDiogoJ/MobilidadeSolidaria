@@ -360,65 +360,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mz5xa55gr2"},{"Name":"integrity","Value":"sha256-kmr/ISw4iPxxbd0EhOdDKcrpomHy4D6w\u002B4L3yTi2G40="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/BGSobreNos.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"900757"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kmr/ISw4iPxxbd0EhOdDKcrpomHy4D6w\u002B4L3yTi2G40=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/CadeiraDeRodas.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\CadeiraDeRodas.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49880"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n1n2\u002B\u002BWsV\u002Bz4eexQ1RxII8L/WjAu/k2W97Iji4Erx44="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"134175"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n1n2\u002B\u002BWsV\u002Bz4eexQ1RxII8L/WjAu/k2W97Iji4Erx44=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 23:18:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/1.vnnr6rfzz7.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/CadeiraDeRodas.x0saqo05d5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\CadeiraDeRodas.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vnnr6rfzz7"},{"Name":"integrity","Value":"sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49880"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/15.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\15.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FUihg\u002B5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"324292"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FUihg\u002B5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/15.lspytdclns.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\15.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lspytdclns"},{"Name":"integrity","Value":"sha256-FUihg\u002B5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/15.JPG"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"324292"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FUihg\u002B5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/16.euk3qzr1yk.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\16.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"euk3qzr1yk"},{"Name":"integrity","Value":"sha256-RkJ4R\u002BDhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU\u002BU0E="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/16.JPG"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"353828"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RkJ4R\u002BDhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU\u002BU0E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/16.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\16.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RkJ4R\u002BDhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU\u002BU0E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"353828"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RkJ4R\u002BDhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU\u002BU0E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/17.74jg90tchh.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\17.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"74jg90tchh"},{"Name":"integrity","Value":"sha256-xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/17.JPG"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"355997"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/17.JPG">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\17.JPG'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"355997"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/18.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\18.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49880"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/categorias/18.vnnr6rfzz7.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categorias\18.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vnnr6rfzz7"},{"Name":"integrity","Value":"sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/18.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49880"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 22:15:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x0saqo05d5"},{"Name":"integrity","Value":"sha256-n1n2\u002B\u002BWsV\u002Bz4eexQ1RxII8L/WjAu/k2W97Iji4Erx44="},{"Name":"label","Value":"_content/MobilidadeSolidaria/images/categorias/CadeiraDeRodas.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"134175"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n1n2\u002B\u002BWsV\u002Bz4eexQ1RxII8L/WjAu/k2W97Iji4Erx44=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 23:18:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/images/Equipamentos/1/1.4frvce0qzr.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Equipamentos\1\1.png'))</AssetFile>

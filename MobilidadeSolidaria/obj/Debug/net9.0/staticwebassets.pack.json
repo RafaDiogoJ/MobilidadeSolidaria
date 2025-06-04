@@ -205,24 +205,8 @@
       "PackagePath": "staticwebassets\\images\\bgLogin.png"
     },
     {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\1.jpg",
-      "PackagePath": "staticwebassets\\images\\categorias\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\15.JPG",
-      "PackagePath": "staticwebassets\\images\\categorias\\15.JPG"
-    },
-    {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\16.JPG",
-      "PackagePath": "staticwebassets\\images\\categorias\\16.JPG"
-    },
-    {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\17.JPG",
-      "PackagePath": "staticwebassets\\images\\categorias\\17.JPG"
-    },
-    {
-      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\18.jpg",
-      "PackagePath": "staticwebassets\\images\\categorias\\18.jpg"
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CadeiraDeRodas.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\CadeiraDeRodas.jpg"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\loc.png",

@@ -9,7 +9,7 @@ public class AppDbSeed
 public AppDbSeed(ModelBuilder builder)
     {
         List<Categoria> categorias = new() {
-            new Categoria { Id = 1, Nome = "Cadeiras de Rodas" },
+            new Categoria { Id = 1, Nome = "Cadeiras de Rodas", Foto="/images/categorias/CadeiraDeRodas.jpg" },
             new Categoria { Id = 2, Nome = "Andadores" },
             new Categoria { Id = 3, Nome = "Bengalas e Muletas" },
             new Categoria { Id = 4, Nome = "Camas e Colchões Hospitalares" },

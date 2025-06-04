@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QkVPsHOSnxGroEdYs8mP8YQM+smegXy7LPVlaXxVXTw=",
+  "Hash": "GL3MkmYHut4DsfrUgHtufg6X6lEVAiCE7zAKVB8qG7I=",
   "Source": "MobilidadeSolidaria",
   "BasePath": "_content/MobilidadeSolidaria",
   "Mode": "Default",
@@ -2831,12 +2831,12 @@
       "OriginalItemSpec": "wwwroot\\images\\BGSobreNos.jpg"
     },
     {
-      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\1.jpg",
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CadeiraDeRodas.jpg",
       "SourceId": "MobilidadeSolidaria",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
       "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "images/categorias/1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/categorias/CadeiraDeRodas#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2845,95 +2845,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vnnr6rfzz7",
-      "Integrity": "dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=",
+      "Fingerprint": "x0saqo05d5",
+      "Integrity": "n1n2++WsV+z4eexQ1RxII8L/WjAu/k2W97Iji4Erx44=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categorias\\1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\15.JPG",
-      "SourceId": "MobilidadeSolidaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
-      "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "images/categorias/15#[.{fingerprint}]?.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lspytdclns",
-      "Integrity": "FUihg+5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categorias\\15.JPG"
-    },
-    {
-      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\16.JPG",
-      "SourceId": "MobilidadeSolidaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
-      "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "images/categorias/16#[.{fingerprint}]?.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "euk3qzr1yk",
-      "Integrity": "RkJ4R+DhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU+U0E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categorias\\16.JPG"
-    },
-    {
-      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\17.JPG",
-      "SourceId": "MobilidadeSolidaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
-      "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "images/categorias/17#[.{fingerprint}]?.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "74jg90tchh",
-      "Integrity": "xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categorias\\17.JPG"
-    },
-    {
-      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\18.jpg",
-      "SourceId": "MobilidadeSolidaria",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
-      "BasePath": "_content/MobilidadeSolidaria",
-      "RelativePath": "images/categorias/18#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vnnr6rfzz7",
-      "Integrity": "dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categorias\\18.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\categorias\\CadeiraDeRodas.jpg"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\Equipamentos\\1\\1.png",
@@ -12796,8 +12712,8 @@
       ]
     },
     {
-      "Route": "images/categorias/1.jpg",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\1.jpg",
+      "Route": "images/categorias/CadeiraDeRodas.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CadeiraDeRodas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12806,7 +12722,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49880"
+          "Value": "134175"
         },
         {
           "Name": "Content-Type",
@@ -12814,11 +12730,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\""
+          "Value": "\"n1n2++WsV+z4eexQ1RxII8L/WjAu/k2W97Iji4Erx44=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
+          "Value": "Wed, 04 Jun 2025 23:18:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12828,13 +12744,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="
+          "Value": "sha256-n1n2++WsV+z4eexQ1RxII8L/WjAu/k2W97Iji4Erx44="
         }
       ]
     },
     {
-      "Route": "images/categorias/1.vnnr6rfzz7.jpg",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\1.jpg",
+      "Route": "images/categorias/CadeiraDeRodas.x0saqo05d5.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CadeiraDeRodas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12843,7 +12759,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49880"
+          "Value": "134175"
         },
         {
           "Name": "Content-Type",
@@ -12851,11 +12767,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\""
+          "Value": "\"n1n2++WsV+z4eexQ1RxII8L/WjAu/k2W97Iji4Erx44=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
+          "Value": "Wed, 04 Jun 2025 23:18:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12865,343 +12781,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vnnr6rfzz7"
+          "Value": "x0saqo05d5"
         },
         {
           "Name": "label",
-          "Value": "images/categorias/1.jpg"
+          "Value": "images/categorias/CadeiraDeRodas.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/15.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\15.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "324292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUihg+5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUihg+5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/15.lspytdclns.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\15.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "324292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUihg+5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lspytdclns"
-        },
-        {
-          "Name": "label",
-          "Value": "images/categorias/15.JPG"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUihg+5AolJ0hAXndZa5ZutlwxylF4MvmklAB/p6ngo="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/16.euk3qzr1yk.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\16.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "353828"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RkJ4R+DhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU+U0E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "euk3qzr1yk"
-        },
-        {
-          "Name": "label",
-          "Value": "images/categorias/16.JPG"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RkJ4R+DhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU+U0E="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/16.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\16.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "353828"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RkJ4R+DhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU+U0E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RkJ4R+DhT1Bmn5gPdOEIMuIARrvck9FQrr8yRLU+U0E="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/17.74jg90tchh.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\17.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "355997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "74jg90tchh"
-        },
-        {
-          "Name": "label",
-          "Value": "images/categorias/17.JPG"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/17.JPG",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\17.JPG",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "355997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xz13whrMcFAIkfdaO320duuWFUoVn2OxB5ayyG32rw4="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/18.jpg",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\18.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49880"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="
-        }
-      ]
-    },
-    {
-      "Route": "images/categorias/18.vnnr6rfzz7.jpg",
-      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\18.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49880"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Jun 2025 22:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vnnr6rfzz7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/categorias/18.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dY2PYzPcdTCWroZYbdSu77inFl2nwfKBUJW2nueElik="
+          "Value": "sha256-n1n2++WsV+z4eexQ1RxII8L/WjAu/k2W97Iji4Erx44="
         }
       ]
     },
