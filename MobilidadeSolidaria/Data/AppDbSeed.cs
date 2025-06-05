@@ -10,12 +10,12 @@ public AppDbSeed(ModelBuilder builder)
     {
         List<Categoria> categorias = new() {
             new Categoria { Id = 1, Nome = "Cadeiras de Rodas", Foto="/images/categorias/CadeiraDeRodas.jpg" },
-            new Categoria { Id = 2, Nome = "Andadores" },
-            new Categoria { Id = 3, Nome = "Bengalas e Muletas" },
-            new Categoria { Id = 4, Nome = "Camas e Colchões Hospitalares" },
-            new Categoria { Id = 5, Nome = "Bancos de Banho" },
-            new Categoria { Id = 6, Nome = "Aparelhos de Reabilitação" },
-            new Categoria { Id = 7, Nome = "Barras de Apoio" }
+            new Categoria { Id = 2, Nome = "Andadores", Foto="/images/categorias/Andadores.jpg"},
+            new Categoria { Id = 3, Nome = "Bengalas e Muletas", Foto="/images/categorias/BengalasEMuletas.jpg" },
+            new Categoria { Id = 4, Nome = "Camas e Colchões Hospitalares", Foto="/images/categorias/CamasEColchoes.jpg" },
+            new Categoria { Id = 5, Nome = "Bancos de Banho", Foto="/images/categorias/BancosDeBanho.jpg" },
+            new Categoria { Id = 6, Nome = "Aparelhos de Reabilitação", Foto="/images/categorias/AparelhosReabilitacao.jpg" },
+            new Categoria { Id = 7, Nome = "Barras de Apoio", Foto="/images/categorias/BarrasDeApoio.jpg" }
         };
         builder.Entity<Categoria>().HasData(categorias);
 

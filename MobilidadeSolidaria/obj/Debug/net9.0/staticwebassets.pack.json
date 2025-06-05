@@ -205,8 +205,32 @@
       "PackagePath": "staticwebassets\\images\\bgLogin.png"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\Andadores.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\Andadores.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\AparelhosReabilitacao.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\AparelhosReabilitacao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\BancosDeBanho.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\BancosDeBanho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\BarrasDeApoio.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\BarrasDeApoio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\BengalasEMuletas.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\BengalasEMuletas.jpg"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CadeiraDeRodas.jpg",
       "PackagePath": "staticwebassets\\images\\categorias\\CadeiraDeRodas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\categorias\\CamasEColchoes.jpg",
+      "PackagePath": "staticwebassets\\images\\categorias\\CamasEColchoes.jpg"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\loc.png",
