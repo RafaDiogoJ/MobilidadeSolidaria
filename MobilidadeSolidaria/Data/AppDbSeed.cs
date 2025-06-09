@@ -94,7 +94,8 @@ public AppDbSeed(ModelBuilder builder)
                 EmailConfirmed = true,
                 Nome = "Rafael Diogo de Jesus",
                 DataNascimento = DateTime.Parse("27/12/1999"),
-                PhoneNumber = "14998931143"
+                PhoneNumber = "14998931143",
+                Foto = "~/images/usuarios/eu.jpg"
             }
         };
         foreach (var user in usuarios)

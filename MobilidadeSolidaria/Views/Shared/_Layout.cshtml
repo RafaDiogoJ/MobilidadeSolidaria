@@ -64,7 +64,6 @@
           <li class="nav-item active">
             <a asp-controller="Home" asp-action="SobreNos" class="nav-link">Sobre Nós</a>
           </li>
-          @* <li class="nav-item"><a href="about.html" class="nav-link">Sobre nós</a></li> *@
           <li class="nav-item active">
             <a asp-controller="Equipamentos" asp-action="Disponiveis" class="nav-link">Equipamentos</a>
           </li>
@@ -107,8 +106,10 @@
               <li><a href="/" class="py-2 d-block">Home</a></li>
               <a asp-controller="Home" asp-action="SobreNos" class="py-2 d-block">Sobre nós</a>
               <a asp-controller="Equipamentos" asp-action="Cadastro" class="py-2 d-block">Quero doar</a>
-              <li><a href="#" class="py-2 d-block">Equipamentos</a></li>
-              <li><a href="#" class="py-2 d-block">Minha conta</a></li>
+              <a asp-controller="Equipamentos" asp-action="Disponiveis" class="py-2 d-block">Equipamentos</a>
+              <a href="@(
+              User.Identity.IsAuthenticated ? Url.Action("Perfil", "Account") : Url.Action("Login","Account")
+              )" class=" py-2 d-block">Minha Conta</a>
             </ul>
           </div>
         </div>
