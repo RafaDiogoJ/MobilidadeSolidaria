@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using MobilidadeSolidaria.Data;
 using MobilidadeSolidaria.Models;
 
@@ -13,10 +14,13 @@ namespace MobilidadeSolidaria.Controllers
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<Usuario> _userManager;
 
-        public UsuariosController(AppDbContext context)
+
+        public UsuariosController(UserManager<Usuario> userManager, AppDbContext context)
         {
             _context = context;
+             _userManager = userManager;
         }
 
         // GET: Usuarios
@@ -153,5 +157,17 @@ namespace MobilidadeSolidaria.Controllers
         {
             return _context.Usuarios.Any(e => e.Id == id);
         }
+
+        // GET: /Usuario/Equipamentos
+        public async Task<IActionResult> Equipamentos()
+        {
+            var usuario = await _userManager.GetUserAsync(User); // pega o usuário logado
+            var equipamentos = await _context.Equipamentos
+                .Where(e => e.UsuarioId == usuario.Id) // filtra pelos equipamentos desse usuário
+                .ToListAsync();
+
+            return View("Equipamentos/Index", equipamentos); // envia os dados para a view
+        }
+
     }
 }

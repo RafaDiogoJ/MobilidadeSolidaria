@@ -6,6 +6,8 @@ namespace MobilidadeSolidaria.ViewModels
 {
     public class CadastroEquipamentoVM
     {
+        public int Id { get; set; }
+
         [Required(ErrorMessage ="Por favor, informe o nome")]
         [Display(Name="Nome", Prompt = "Informe o nome do Equipamento")]
         [StringLength(50, ErrorMessage ="O nome deve possuir no máximo 50 caracteres")]

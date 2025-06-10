@@ -269,6 +269,10 @@
       "PackagePath": "staticwebassets\\images\\teste2.jpg"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg",
+      "PackagePath": "staticwebassets\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\1556d025-9edb-48e5-8e8d-100c18957a36.jpg",
       "PackagePath": "staticwebassets\\images\\usuarios\\1556d025-9edb-48e5-8e8d-100c18957a36.jpg"
     },
@@ -307,6 +311,14 @@
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EU.jpg",
       "PackagePath": "staticwebassets\\images\\usuarios\\EU.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuCaricatura.png",
+      "PackagePath": "staticwebassets\\images\\usuarios\\EuCaricatura.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuGhibli.png",
+      "PackagePath": "staticwebassets\\images\\usuarios\\EuGhibli.png"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\a604a33a-f83a-42e0-a383-4e944db11009.jpg",

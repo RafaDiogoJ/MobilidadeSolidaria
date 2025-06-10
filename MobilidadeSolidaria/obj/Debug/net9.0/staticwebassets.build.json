@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WjkmHvsN7xAV3RVa3zBp0Z4jiHorcd0tv3l8mMnZYUA=",
+  "Hash": "ENxHFz3nbHkgE7vTemkJrMLAYT85RZquN43r/93pqnM=",
   "Source": "MobilidadeSolidaria",
   "BasePath": "_content/MobilidadeSolidaria",
   "Mode": "Default",
@@ -3587,6 +3587,27 @@
       "OriginalItemSpec": "wwwroot\\images\\teste2.jpg"
     },
     {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "images/usuarios/04e87979-c986-4cf4-bc91-00c584ee26b9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "103achxx4v",
+      "Integrity": "TxIp8ny6R8TMY2iX/7dhhIxp8zw7P4XHZmrTI1LB4mo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg"
+    },
+    {
       "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\1556d025-9edb-48e5-8e8d-100c18957a36.jpg",
       "SourceId": "MobilidadeSolidaria",
       "SourceType": "Discovered",
@@ -3900,6 +3921,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\usuarios\\EU.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuCaricatura.png",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "images/usuarios/EuCaricatura#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8mc0elvkov",
+      "Integrity": "4HG6e/w5fUEVBhbqJwvxQacmF9k3S8CIcfKPR/h48kw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\usuarios\\EuCaricatura.png"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuGhibli.png",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "images/usuarios/EuGhibli#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uj82q7zqlf",
+      "Integrity": "yh2JCgPxwiwicSjJ+cZf0EtzDAdZvpNHLaE8SW8zdAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\usuarios\\EuGhibli.png"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\f3ac9d7a-b405-46bb-9369-d09a379aa13c.jpg",
@@ -15790,6 +15853,88 @@
       ]
     },
     {
+      "Route": "images/usuarios/04e87979-c986-4cf4-bc91-00c584ee26b9.103achxx4v.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxIp8ny6R8TMY2iX/7dhhIxp8zw7P4XHZmrTI1LB4mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "103achxx4v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/usuarios/04e87979-c986-4cf4-bc91-00c584ee26b9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxIp8ny6R8TMY2iX/7dhhIxp8zw7P4XHZmrTI1LB4mo="
+        }
+      ]
+    },
+    {
+      "Route": "images/usuarios/04e87979-c986-4cf4-bc91-00c584ee26b9.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\04e87979-c986-4cf4-bc91-00c584ee26b9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxIp8ny6R8TMY2iX/7dhhIxp8zw7P4XHZmrTI1LB4mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxIp8ny6R8TMY2iX/7dhhIxp8zw7P4XHZmrTI1LB4mo="
+        }
+      ]
+    },
+    {
       "Route": "images/usuarios/1556d025-9edb-48e5-8e8d-100c18957a36.gptjphbcmf.jpg",
       "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\1556d025-9edb-48e5-8e8d-100c18957a36.jpg",
       "Selectors": [],
@@ -17016,6 +17161,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-s+lvvf47feqNbYEYakFYKDRAk/0erRPLM4LzkMZq+eI="
+        }
+      ]
+    },
+    {
+      "Route": "images/usuarios/EuCaricatura.8mc0elvkov.png",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuCaricatura.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3688207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4HG6e/w5fUEVBhbqJwvxQacmF9k3S8CIcfKPR/h48kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 23:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8mc0elvkov"
+        },
+        {
+          "Name": "label",
+          "Value": "images/usuarios/EuCaricatura.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4HG6e/w5fUEVBhbqJwvxQacmF9k3S8CIcfKPR/h48kw="
+        }
+      ]
+    },
+    {
+      "Route": "images/usuarios/EuCaricatura.png",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuCaricatura.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3688207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4HG6e/w5fUEVBhbqJwvxQacmF9k3S8CIcfKPR/h48kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 23:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4HG6e/w5fUEVBhbqJwvxQacmF9k3S8CIcfKPR/h48kw="
+        }
+      ]
+    },
+    {
+      "Route": "images/usuarios/EuGhibli.png",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuGhibli.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2009121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yh2JCgPxwiwicSjJ+cZf0EtzDAdZvpNHLaE8SW8zdAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 23:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yh2JCgPxwiwicSjJ+cZf0EtzDAdZvpNHLaE8SW8zdAc="
+        }
+      ]
+    },
+    {
+      "Route": "images/usuarios/EuGhibli.uj82q7zqlf.png",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\images\\usuarios\\EuGhibli.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2009121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yh2JCgPxwiwicSjJ+cZf0EtzDAdZvpNHLaE8SW8zdAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 23:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uj82q7zqlf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/usuarios/EuGhibli.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yh2JCgPxwiwicSjJ+cZf0EtzDAdZvpNHLaE8SW8zdAc="
         }
       ]
     },
