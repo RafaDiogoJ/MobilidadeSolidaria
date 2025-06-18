@@ -1386,6 +1386,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\usuarios\a604a33a-f83a-42e0-a383-4e944db11009.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\usuarios\aafe7ed1-9aa6-46be-9d6e-fd0f66fec739.JPG'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MobilidadeSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MobilidadeSolidaria</BasePath>
+      <RelativePath>images/usuarios/aafe7ed1-9aa6-46be-9d6e-fd0f66fec739.JPG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vak5uudgd0</Fingerprint>
+      <Integrity>B9z4PKVdmTEyrP+pAqrhvD9uFlA8SojJJm7Q++cYTqo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\usuarios\aafe7ed1-9aa6-46be-9d6e-fd0f66fec739.JPG'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\usuarios\ab517101-9471-4972-aeb3-7344cdc86e39.JPG'))">
       <SourceType>Package</SourceType>
       <SourceId>MobilidadeSolidaria</SourceId>

@@ -20,7 +20,7 @@ namespace MobilidadeSolidaria.Controllers
         public UsuariosController(UserManager<Usuario> userManager, AppDbContext context)
         {
             _context = context;
-             _userManager = userManager;
+            _userManager = userManager;
         }
 
         // GET: Usuarios
@@ -163,11 +163,72 @@ namespace MobilidadeSolidaria.Controllers
         {
             var usuario = await _userManager.GetUserAsync(User); // pega o usuário logado
             var equipamentos = await _context.Equipamentos
+                .Include(e => e.Fotos) // <- adiciona isso para carregar as fotos junto
                 .Where(e => e.UsuarioId == usuario.Id) // filtra pelos equipamentos desse usuário
                 .ToListAsync();
 
             return View("Equipamentos/Index", equipamentos); // envia os dados para a view
         }
+
+
+        // GET: Usuarios/Editar/1 (para editar um equipamento)
+        public async Task<IActionResult> Editar(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var equipamento = await _context.Equipamentos.FindAsync(id);
+            if (equipamento == null)
+            {
+                return NotFound();
+            }
+
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", equipamento.UsuarioId);
+            ViewBag.Categorias = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
+
+            return View("Equipamentos/Editar", equipamento);
+        }
+
+        // POST: /Usuarios/Editar
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(Equipamento equipamento)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
+                ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", equipamento.UsuarioId);
+                ViewBag.Categorias = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
+
+                return View("Equipamentos/Editar", equipamento);
+            }
+
+            try
+            {
+
+                var usuario = await _userManager.GetUserAsync(User);
+                equipamento.UsuarioId = usuario.Id; // Corrige o vínculo do equipamento com o usuário
+
+                _context.Update(equipamento);
+                await _context.SaveChangesAsync();
+
+                TempData["Mensagem"] = "Equipamento atualizado com sucesso!";
+                return RedirectToAction("Equipamentos");
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Equipamentos.Any(e => e.Id == equipamento.Id))
+                {
+                    return NotFound();
+                }
+                throw;
+            }
+        }
+
+
 
     }
 }
