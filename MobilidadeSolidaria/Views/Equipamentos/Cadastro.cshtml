@@ -9,32 +9,58 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body p-5">
                     <h2 class="mb-4 text-center">Cadastro de Equipamento</h2>
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <li>@error.ErrorMessage</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+
                     <form asp-action="Cadastro" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label asp-for="Nome" class="mb-0 fw-semibold">Nome</label>
                             <input class="form-control" asp-for="Nome" />
                             <span asp-validation-for="Nome" class="text-danger text-sm"></span>
                         </div>
-                        <div>
+
+                        <div class="mb-3">
                             <label asp-for="Descricao" class="mb-0 fw-semibold">Descrição</label>
                             <input class="form-control" asp-for="Descricao" />
                             <span asp-validation-for="Descricao" class="text-danger text-sm"></span>
                         </div>
-                        <div class="mt-3 mb-3">
-                            <label asp-for="CategoriaId" class="mb-0 fw-semibold"></label>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoriaId" class="mb-0 fw-semibold">Categoria</label>
                             <select asp-for="CategoriaId" class="form-select" asp-items="ViewBag.Categorias"
                                 style="font-weight: lighter;" required>
                                 <option value="">Selecione</option>
                             </select>
                             <span asp-validation-for="CategoriaId" class="text-danger text-sm"></span>
                         </div>
-                        <div class="mb-3">
 
-                            <label asp-for="Fotos" class="form-label fw-semibold mb-0"></label>
-                        <input type="file" asp-for="Fotos" class="form-control p-2 rounded-1" accept=".jpg,.jpeg,.png,.gif;" />
+                        <div class="mb-3">
+                            <label asp-for="Status" class="form-label fw-semibold">Status</label>
+                            <select asp-for="Status" class="form-select">
+                                <option value="0">Empréstimo</option>
+                                <option value="1">Doação</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger text-sm"></span>
                         </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold mb-0">Adicionar novas fotos</label>
+                            <input name="fotos" class="form-control p-2 rounded-1" type="file"
+                                accept=".jpg,.jpeg,.png,.gif" multiple />
+                        </div>
+
                         <div class="d-grid">
-                            <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Equipamento">
+                            <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Equipamento" />
                         </div>
                     </form>
                 </div>
@@ -42,3 +68,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

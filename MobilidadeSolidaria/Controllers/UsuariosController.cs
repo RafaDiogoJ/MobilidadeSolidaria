@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
 using MobilidadeSolidaria.Data;
 using MobilidadeSolidaria.Models;
 
@@ -16,46 +12,32 @@ namespace MobilidadeSolidaria.Controllers
         private readonly AppDbContext _context;
         private readonly UserManager<Usuario> _userManager;
 
-
         public UsuariosController(UserManager<Usuario> userManager, AppDbContext context)
         {
             _context = context;
             _userManager = userManager;
         }
 
-        // GET: Usuarios
+        // LISTA DE USUÁRIOS
         public async Task<IActionResult> Index()
         {
             return View(await _context.Usuarios.ToListAsync());
         }
 
-        // GET: Usuarios/Details/5
+        // DETALHES DO USUÁRIO
         public async Task<IActionResult> Details(string id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(m => m.Id == id);
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // GET: Usuarios/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+        // CRIAR USUÁRIO
+        public IActionResult Create() => View();
 
-        // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Nome,DataNascimento,Foto,Id,UserName,NormalizedUserName,Email,NormalizedEmail,EmailConfirmed,PasswordHash,SecurityStamp,ConcurrencyStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnd,LockoutEnabled,AccessFailedCount")] Usuario usuario)
@@ -69,33 +51,22 @@ namespace MobilidadeSolidaria.Controllers
             return View(usuario);
         }
 
-        // GET: Usuarios/Edit/5
+        // EDITAR USUÁRIO
         public async Task<IActionResult> Edit(string id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            if (usuario == null) return NotFound();
+
             return View(usuario);
         }
 
-        // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Nome,DataNascimento,Foto,Id,UserName,NormalizedUserName,Email,NormalizedEmail,EmailConfirmed,PasswordHash,SecurityStamp,ConcurrencyStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnd,LockoutEnabled,AccessFailedCount")] Usuario usuario)
         {
-            if (id != usuario.Id)
-            {
-                return NotFound();
-            }
+            if (id != usuario.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -106,39 +77,25 @@ namespace MobilidadeSolidaria.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!_context.Usuarios.Any(e => e.Id == usuario.Id)) return NotFound();
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(usuario);
         }
 
-        // GET: Usuarios/Delete/5
+        // EXCLUIR USUÁRIO
         public async Task<IActionResult> Delete(string id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(m => m.Id == id);
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
@@ -147,9 +104,9 @@ namespace MobilidadeSolidaria.Controllers
             if (usuario != null)
             {
                 _context.Usuarios.Remove(usuario);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
@@ -158,77 +115,91 @@ namespace MobilidadeSolidaria.Controllers
             return _context.Usuarios.Any(e => e.Id == id);
         }
 
-        // GET: /Usuario/Equipamentos
+        // LISTAR EQUIPAMENTOS DO USUÁRIO LOGADO
         public async Task<IActionResult> Equipamentos()
         {
-            var usuario = await _userManager.GetUserAsync(User); // pega o usuário logado
+            var usuario = await _userManager.GetUserAsync(User);
             var equipamentos = await _context.Equipamentos
-                .Include(e => e.Fotos) // <- adiciona isso para carregar as fotos junto
-                .Where(e => e.UsuarioId == usuario.Id) // filtra pelos equipamentos desse usuário
+                .Include(e => e.Fotos)
+                .Where(e => e.UsuarioId == usuario.Id)
                 .ToListAsync();
 
-            return View("Equipamentos/Index", equipamentos); // envia os dados para a view
+            return View("Equipamentos/Index", equipamentos);
         }
 
-
-        // GET: Usuarios/Editar/1 (para editar um equipamento)
-        public async Task<IActionResult> Editar(int? id)
+        // GET: Usuarios/Equipamentos/Editar/5
+        [HttpGet]
+        public async Task<IActionResult> EditarEquipamento(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var equipamento = await _context.Equipamentos.FindAsync(id);
-            if (equipamento == null)
-            {
-                return NotFound();
-            }
+            var equipamento = await _context.Equipamentos
+                .Include(e => e.Fotos)
+                .FirstOrDefaultAsync(e => e.Id == id);
 
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", equipamento.UsuarioId);
+            if (equipamento == null) return NotFound();
+
             ViewBag.Categorias = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
-
             return View("Equipamentos/Editar", equipamento);
         }
 
-        // POST: /Usuarios/Editar
+        // POST: Usuarios/Equipamentos/Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Editar(Equipamento equipamento)
+        public async Task<IActionResult> EditarEquipamento(Equipamento equipamento, List<IFormFile> fotos)
         {
             if (!ModelState.IsValid)
             {
-                ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
-                ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", equipamento.UsuarioId);
                 ViewBag.Categorias = new SelectList(_context.Categoria, "Id", "Nome", equipamento.CategoriaId);
-
                 return View("Equipamentos/Editar", equipamento);
             }
 
             try
             {
-
                 var usuario = await _userManager.GetUserAsync(User);
-                equipamento.UsuarioId = usuario.Id; // Corrige o vínculo do equipamento com o usuário
+                equipamento.UsuarioId = usuario.Id;
 
                 _context.Update(equipamento);
                 await _context.SaveChangesAsync();
 
+                // Salvar novas fotos, se houver
+                if (fotos != null && fotos.Any())
+                {
+                    var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagens", "equipamentos");
+
+                    if (!Directory.Exists(caminhoPasta))
+                        Directory.CreateDirectory(caminhoPasta);
+
+                    foreach (var foto in fotos)
+                    {
+                        if (foto.Length > 0)
+                        {
+                            var nomeArquivo = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+                            var caminhoCompleto = Path.Combine(caminhoPasta, nomeArquivo);
+
+                            using var stream = new FileStream(caminhoCompleto, FileMode.Create);
+                            await foto.CopyToAsync(stream);
+
+                            var novaFoto = new EquipamentoFoto
+                            {
+                                EquipamentoId = equipamento.Id,
+                                ArquivoFoto = "/imagens/equipamentos/" + nomeArquivo
+                            };
+
+                            _context.Add(novaFoto);
+                        }
+                    }
+
+                    await _context.SaveChangesAsync();
+                }
+
                 TempData["Mensagem"] = "Equipamento atualizado com sucesso!";
                 return RedirectToAction("Equipamentos");
             }
-            catch (DbUpdateConcurrencyException)
+            catch
             {
-                if (!_context.Equipamentos.Any(e => e.Id == equipamento.Id))
-                {
-                    return NotFound();
-                }
-                throw;
+                return View("Equipamentos/Editar", equipamento);
             }
         }
-
-
-
     }
 }

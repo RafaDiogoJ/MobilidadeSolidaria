@@ -19,7 +19,8 @@ namespace MobilidadeSolidaria.Controllers
         }
 
 
-        [Authorize] // Garante que apenas usuários logados acessem
+        [HttpGet]
+        [Authorize]
         public IActionResult Cadastro()
         {
             ViewBag.Categorias = _context.Categoria
@@ -29,16 +30,18 @@ namespace MobilidadeSolidaria.Controllers
                     Text = c.Nome
                 }).ToList();
 
-            return View(new CadastroEquipamentoVM());
+            var vm = new CadastroEquipamentoVM();
+            return View(vm);
         }
+
 
 
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Cadastro(CadastroEquipamentoVM vm)
+        public async Task<IActionResult> Cadastro(CadastroEquipamentoVM vm, List<IFormFile> fotos)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ViewBag.Categorias = _context.Categoria
                     .Select(c => new SelectListItem
@@ -50,23 +53,65 @@ namespace MobilidadeSolidaria.Controllers
                 return View(vm);
             }
 
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Obtém o ID do usuário logado
-
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var categoria = await _context.Categoria.FindAsync(vm.CategoriaId);
+
+            if (categoria == null)
+            {
+                ModelState.AddModelError("CategoriaId", "Categoria inválida");
+                ViewBag.Categorias = _context.Categoria
+                    .Select(c => new SelectListItem
+                    {
+                        Value = c.Id.ToString(),
+                        Text = c.Nome
+                    }).ToList();
+                return View(vm);
+            }
 
             var equipamento = new Equipamento
             {
                 Nome = vm.Nome,
                 Descricao = vm.Descricao,
                 Categoria = categoria,
-                UsuarioId = userId // Atribui o usuário logado
+                UsuarioId = userId,
+                Fotos = new List<EquipamentoFoto>(),
+                Status = vm.Status
             };
+
+            var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagens", "equipamentos");
+            if (!Directory.Exists(caminhoPasta))
+                Directory.CreateDirectory(caminhoPasta);
+
+            if (fotos != null && fotos.Any())
+            {
+                foreach (var foto in fotos)
+                {
+                    if (foto.Length > 0)
+                    {
+                        var nomeArquivo = Guid.NewGuid() + Path.GetExtension(foto.FileName);
+                        var caminhoCompleto = Path.Combine(caminhoPasta, nomeArquivo);
+
+                        using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+                        {
+                            await foto.CopyToAsync(stream);
+                        }
+
+                        equipamento.Fotos.Add(new EquipamentoFoto
+                        {
+                            ArquivoFoto = "/imagens/equipamentos/" + nomeArquivo
+                        });
+                    }
+                }
+            }
 
             _context.Equipamentos.Add(equipamento);
             await _context.SaveChangesAsync();
 
+            TempData["Mensagem"] = "Equipamento cadastrado com sucesso!";
             return RedirectToAction("Index", "Home");
         }
+
+
 
 
         // GET: Equipamentos

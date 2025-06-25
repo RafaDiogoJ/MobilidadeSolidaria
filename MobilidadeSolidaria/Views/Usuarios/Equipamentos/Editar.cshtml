@@ -6,18 +6,25 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body p-5">
                     <h2 class="mb-4 text-center">Editar Equipamento</h2>
-                    <form asp-action="Editar" method="post" enctype="multipart/form-data">
+
+                    <form asp-action="EditarEquipamento" asp-controller="Usuarios" method="post"
+                        enctype="multipart/form-data">
+                        @* Hidden para o Id, importante para o POST *@
+                        <input type="hidden" asp-for="Id" />
+
                         <div class="mb-3">
                             <label asp-for="Nome" class="mb-0 fw-semibold">Nome</label>
                             <input class="form-control" asp-for="Nome" />
                             <span asp-validation-for="Nome" class="text-danger text-sm"></span>
                         </div>
-                        <div>
+
+                        <div class="mb-3">
                             <label asp-for="Descricao" class="mb-0 fw-semibold">Descrição</label>
                             <input class="form-control" asp-for="Descricao" />
                             <span asp-validation-for="Descricao" class="text-danger text-sm"></span>
                         </div>
-                        <div class="mt-3 mb-3">
+
+                        <div class="mb-3">
                             <label asp-for="CategoriaId" class="mb-0 fw-semibold">Categoria</label>
                             <select asp-for="CategoriaId" class="form-select" asp-items="ViewBag.Categorias"
                                 style="font-weight: lighter;" required>
@@ -26,7 +33,17 @@
                             <span asp-validation-for="CategoriaId" class="text-danger text-sm"></span>
                         </div>
 
-                        <p class="mb-0">Foto</p>
+                        <div class="mb-3">
+                            <label asp-for="Status" class="form-label fw-semibold">Status</label>
+                            <select asp-for="Status" class="form-select">
+                                <option value="0">Empréstimo</option>
+                                <option value="1">Doação</option>
+                                <option value="2">Indisponível</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger text-sm"></span>
+                        </div>
+
+                        <p class="mb-0">Fotos atuais</p>
                         <div>
                             @if (Model.Fotos != null && Model.Fotos.Any())
                             {
@@ -34,8 +51,8 @@
                                     @foreach (var foto in Model.Fotos)
                                     {
                                         <div class="col-md-3 mb-3">
-                                            <img src="@Url.Content(foto.ArquivoFoto)" alt="@foto.Descricao"
-                                                style="height: 200px;" />
+                                            <img src="@Url.Content(foto.ArquivoFoto)" alt="@foto.Descricao ?? " Foto do
+                                                equipamento"" class="img-fluid rounded shadow-sm" style="height: 150px;" />
                                         </div>
                                     }
                                 </div>
@@ -48,17 +65,14 @@
                             }
                         </div>
 
-
-
-
                         <div class="mb-3">
-                            <label asp-for="Fotos" class="form-label fw-semibold mb-0"></label>
-                            <input type="file" asp-for="Fotos" class="form-control p-2 rounded-1"
-                                accept=".jpg,.jpeg,.png,.gif;" />
-
+                            <label class="form-label fw-semibold mb-0">Adicionar novas fotos</label>
+                            <input type="file" name="fotos" class="form-control p-2 rounded-1"
+                                accept=".jpg,.jpeg,.png,.gif" multiple />
                         </div>
+
                         <div class="d-grid">
-                            <input type="submit" class="btn btn-primary btn-lg" value="Salvar alterações">
+                            <input type="submit" class="btn btn-primary btn-lg" value="Salvar alterações" />
                         </div>
                     </form>
                 </div>
@@ -68,14 +82,5 @@
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial.cshtml"></partial>
-    <script>
-        document.querySelector("input[type='file']").addEventListener('change', function () {
-            if (this.files && this.files[0]) {
-                var img = document.getElementById("Preview");
-                img.src = URL.createObjectURL(this.files[0]);
-            }
-        });
-
-    </script>
+    <partial name="_ValidationScriptsPartial" />
 }
