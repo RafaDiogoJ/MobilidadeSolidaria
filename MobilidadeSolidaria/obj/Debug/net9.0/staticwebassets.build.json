@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V9PKpl4FmHny6BEnKJTVz8J1BFlp4vA6/ld6FbXZ738=",
+  "Hash": "vZEqujL0scXRiVEyx/maiZLrcCe0w6W0t7O1D1lHCWE=",
   "Source": "MobilidadeSolidaria",
   "BasePath": "_content/MobilidadeSolidaria",
   "Mode": "Default",
@@ -2682,6 +2682,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\94702e64-14ac-4aed-a56d-f83884ecc030.jpg",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9zfrx21924",
+      "Integrity": "peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\equipamentos\\94702e64-14ac-4aed-a56d-f83884ecc030.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9meh9wh037",
+      "Integrity": "v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\equipamentos\\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\efa99108-279d-4800-922d-0c2f8d767424.jpeg",
+      "SourceId": "MobilidadeSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\",
+      "BasePath": "_content/MobilidadeSolidaria",
+      "RelativePath": "imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9meh9wh037",
+      "Integrity": "v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\equipamentos\\efa99108-279d-4800-922d-0c2f8d767424.jpeg"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\fd90a264-749b-4049-b299-c287464dcbac.jpeg",
@@ -12365,6 +12428,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.9zfrx21924.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\94702e64-14ac-4aed-a56d-f83884ecc030.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 01:03:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9zfrx21924"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.jpg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\94702e64-14ac-4aed-a56d-f83884ecc030.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 01:03:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.9meh9wh037.jpeg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 01:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9meh9wh037"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 01:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.9meh9wh037.jpeg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\efa99108-279d-4800-922d-0c2f8d767424.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 00:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9meh9wh037"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.jpeg",
+      "AssetFile": "C:\\Users\\etec\\Desktop\\MobilidadeSolidaria\\MobilidadeSolidaria\\wwwroot\\imagens\\equipamentos\\efa99108-279d-4800-922d-0c2f8d767424.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 00:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="
         }
       ]
     },

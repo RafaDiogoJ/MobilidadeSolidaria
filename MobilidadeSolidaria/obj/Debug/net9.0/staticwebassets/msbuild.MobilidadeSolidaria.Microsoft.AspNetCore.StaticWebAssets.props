@@ -414,6 +414,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\94702e64-14ac-4aed-a56d-f83884ecc030.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MobilidadeSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MobilidadeSolidaria</BasePath>
+      <RelativePath>imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9zfrx21924</Fingerprint>
+      <Integrity>peKnv3krumdhVeBFzAsXoFbzIjzc7q2+wQaaT66LGfY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\94702e64-14ac-4aed-a56d-f83884ecc030.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MobilidadeSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MobilidadeSolidaria</BasePath>
+      <RelativePath>imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9meh9wh037</Fingerprint>
+      <Integrity>v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\efa99108-279d-4800-922d-0c2f8d767424.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MobilidadeSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MobilidadeSolidaria</BasePath>
+      <RelativePath>imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9meh9wh037</Fingerprint>
+      <Integrity>v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\efa99108-279d-4800-922d-0c2f8d767424.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\fd90a264-749b-4049-b299-c287464dcbac.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MobilidadeSolidaria</SourceId>

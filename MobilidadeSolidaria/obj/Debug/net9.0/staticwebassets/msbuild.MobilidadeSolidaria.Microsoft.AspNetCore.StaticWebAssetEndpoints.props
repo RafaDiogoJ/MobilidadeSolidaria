@@ -276,6 +276,42 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 22:48:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.9zfrx21924.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\94702e64-14ac-4aed-a56d-f83884ecc030.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9zfrx21924"},{"Name":"integrity","Value":"sha256-peKnv3krumdhVeBFzAsXoFbzIjzc7q2\u002BwQaaT66LGfY="},{"Name":"label","Value":"_content/MobilidadeSolidaria/imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1541273"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022peKnv3krumdhVeBFzAsXoFbzIjzc7q2\u002BwQaaT66LGfY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 01:03:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/94702e64-14ac-4aed-a56d-f83884ecc030.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\94702e64-14ac-4aed-a56d-f83884ecc030.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-peKnv3krumdhVeBFzAsXoFbzIjzc7q2\u002BwQaaT66LGfY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1541273"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022peKnv3krumdhVeBFzAsXoFbzIjzc7q2\u002BwQaaT66LGfY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 01:03:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.9meh9wh037.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9meh9wh037"},{"Name":"integrity","Value":"sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="},{"Name":"label","Value":"_content/MobilidadeSolidaria/imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"322554"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 01:03:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\e3dcb603-29f5-467a-991c-5eef5c9086e1.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"322554"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 01:03:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.9meh9wh037.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\efa99108-279d-4800-922d-0c2f8d767424.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9meh9wh037"},{"Name":"integrity","Value":"sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="},{"Name":"label","Value":"_content/MobilidadeSolidaria/imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"322554"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 00:52:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/efa99108-279d-4800-922d-0c2f8d767424.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\efa99108-279d-4800-922d-0c2f8d767424.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"322554"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v2IpDdl966zZ3PwgS/DlfhIvpRASewlK/uPLeZMi82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 00:52:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MobilidadeSolidaria/imagens/equipamentos/fd90a264-749b-4049-b299-c287464dcbac.9meh9wh037.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\equipamentos\fd90a264-749b-4049-b299-c287464dcbac.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

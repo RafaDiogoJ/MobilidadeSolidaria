@@ -10,14 +10,37 @@
         : "#";
 }
 
-
 <section class="py-5" style="margin-top: 100px; background-color: #ffffff;">
     <div class="container px-4 px-lg-5 my-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
             <div class="col-md-6">
-                <img class="img-fluid mb-5 mb-md-0"
-                    src="@Url.Content(Model.Equipamento.Fotos.FirstOrDefault()?.ArquivoFoto ?? "~/images/default.jpg")"
-                    alt="@Model.Equipamento.Nome" />
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    @foreach (var foto in Model.Equipamento.Fotos)
+                    {
+                        <div class="swiper-slide">
+                            <img src="@Url.Content(foto.ArquivoFoto ?? "~/images/default.jpg")" class="img-fluid" alt="Foto do equipamento" />
+                        </div>
+                    }
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <script>
+            const swiper = new Swiper(".mySwiper", {
+                loop: true,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+            });
+            </script>
             </div>
             <div class="col-md-6">
                 <div class="small mb-1">Categoria: @Model.Equipamento.Categoria.Nome</div>
